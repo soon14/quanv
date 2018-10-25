@@ -1,0 +1,598 @@
+2018-07-20 10:15:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PsaqGkNdqYyqJMx6__I-4I]]></FromUserName>
+<CreateTime>1532052900</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[请问怎么样了啊]]></Content>
+<MsgId>6580117101798069223</MsgId>
+</xml>
+
+2018-07-20 10:15:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'createtime' => '1532052900',
+    'msgtype' => 'text',
+    'content' => '请问怎么样了啊',
+    'msgid' => '6580117101798069223',
+    'from' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532052900',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-20 10:15:00 response :
+------------
+
+2018-07-20 14:15:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew4PUHR1wChoHKIxut1Aa0-4]]></FromUserName>
+<CreateTime>1532067309</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[038099360572]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-07-20 14:15:09 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew4PUHR1wChoHKIxut1Aa0-4',
+    'createtime' => '1532067309',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '038099360572',
+    'outerstr' => '',
+    'from' => 'o3hgew4PUHR1wChoHKIxut1Aa0-4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1532067309',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 14:15:09 response :
+------------
+
+2018-07-20 19:01:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J5IBt7532ZVwaLSWWVQTjI]]></FromUserName>
+<CreateTime>1532084478</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377356618611851267</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:01:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'createtime' => '1532084478',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377356618611851267',
+    'status' => 'success',
+    'from' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532084478',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:01:18 response :
+------------
+
+2018-07-20 19:04:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1532084678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377359976051867649</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:04:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1532084678',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377359976051867649',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532084678',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:04:38 response :
+------------
+
+2018-07-20 19:11:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1532085109</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377367211494703104</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:11:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1532085109',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377367211494703104',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532085109',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:11:50 response :
+------------
+
+2018-07-20 19:13:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J5IBt7532ZVwaLSWWVQTjI]]></FromUserName>
+<CreateTime>1532085190</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377368562395807744</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:13:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'createtime' => '1532085190',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377368562395807744',
+    'status' => 'success',
+    'from' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532085190',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:13:10 response :
+------------
+
+2018-07-20 19:16:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1532085361</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377371442138152963</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:16:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1532085361',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377371442138152963',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532085361',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:16:02 response :
+------------
+
+2018-07-20 19:53:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J5IBt7532ZVwaLSWWVQTjI]]></FromUserName>
+<CreateTime>1532087594</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377408891283079170</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:53:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'createtime' => '1532087594',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377408891283079170',
+    'status' => 'success',
+    'from' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532087594',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:53:14 response :
+------------
+
+2018-07-20 19:54:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1532087659</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377409989821956097</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:54:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1532087659',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377409989821956097',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532087659',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:54:19 response :
+------------
+
+2018-07-20 19:59:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1532087967</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377415160442486788</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 19:59:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1532087967',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377415160442486788',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532087967',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 19:59:27 response :
+------------
+
+2018-07-20 20:12:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JaM6PtzXnFDp3J7Z9yiKtI]]></FromUserName>
+<CreateTime>1532088772</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我的咨询图文提交是否成功？费用已扣]]></Content>
+<MsgId>6580271170864991033</MsgId>
+</xml>
+
+2018-07-20 20:12:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JaM6PtzXnFDp3J7Z9yiKtI',
+    'createtime' => '1532088772',
+    'msgtype' => 'text',
+    'content' => '我的咨询图文提交是否成功？费用已扣',
+    'msgid' => '6580271170864991033',
+    'from' => 'o4s6w1JaM6PtzXnFDp3J7Z9yiKtI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532088772',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-20 20:12:52 response :
+------------
+
+2018-07-20 20:16:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JaM6PtzXnFDp3J7Z9yiKtI]]></FromUserName>
+<CreateTime>1532088996</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我的咨询图文提交是否成功？费用已扣]]></Content>
+<MsgId>6580272132937666248</MsgId>
+</xml>
+
+2018-07-20 20:16:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JaM6PtzXnFDp3J7Z9yiKtI',
+    'createtime' => '1532088996',
+    'msgtype' => 'text',
+    'content' => '我的咨询图文提交是否成功？费用已扣',
+    'msgid' => '6580272132937666248',
+    'from' => 'o4s6w1JaM6PtzXnFDp3J7Z9yiKtI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532088996',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-20 20:16:36 response :
+------------
+
+2018-07-20 20:16:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JaM6PtzXnFDp3J7Z9yiKtI]]></FromUserName>
+<CreateTime>1532088998</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我的咨询图文提交是否成功？费用已扣]]></Content>
+<MsgId>6580272141527600848</MsgId>
+</xml>
+
+2018-07-20 20:16:39 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JaM6PtzXnFDp3J7Z9yiKtI',
+    'createtime' => '1532088998',
+    'msgtype' => 'text',
+    'content' => '我的咨询图文提交是否成功？费用已扣',
+    'msgid' => '6580272141527600848',
+    'from' => 'o4s6w1JaM6PtzXnFDp3J7Z9yiKtI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532088998',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-20 20:16:39 response :
+------------
+
+2018-07-20 20:26:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J5IBt7532ZVwaLSWWVQTjI]]></FromUserName>
+<CreateTime>1532089580</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377442219977637888</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 20:26:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'createtime' => '1532089580',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377442219977637888',
+    'status' => 'success',
+    'from' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532089580',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 20:26:20 response :
+------------
+
+2018-07-20 20:33:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1532089999</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377449246628347904</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 20:33:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1532089999',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377449246628347904',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532089999',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 20:33:19 response :
+------------
+
+2018-07-20 20:45:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J5IBt7532ZVwaLSWWVQTjI]]></FromUserName>
+<CreateTime>1532090756</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>377461956711317505</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-20 20:45:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'createtime' => '1532090756',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '377461956711317505',
+    'status' => 'success',
+    'from' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1532090756',
+    'type' => 'event',
+  ),
+)
+
+2018-07-20 20:45:57 response :
+------------
+

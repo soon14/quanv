@@ -1,0 +1,179 @@
+2018-04-08 12:56:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew-WpILkNN_QSTL8UmA9MT_k]]></FromUserName>
+<CreateTime>1523163377</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-04-08 15:57:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwpSyVyzS7NLxDoSBVKHDzg]]></FromUserName>
+<CreateTime>1523174229</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgew9XkkbkwPgTsmLu8YQw8Ink]]></CardId>
+<UserCardCode><![CDATA[384249670997]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-04-08 15:57:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'createtime' => '1523174229',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgew9XkkbkwPgTsmLu8YQw8Ink',
+    'usercardcode' => '384249670997',
+    'outerstr' => '',
+    'from' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1523174229',
+    'type' => 'event',
+  ),
+)
+
+2018-04-08 15:57:10 response :
+------------
+
+2018-04-08 15:57:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwpSyVyzS7NLxDoSBVKHDzg]]></FromUserName>
+<CreateTime>1523174255</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_enter_session_from_card]]></Event>
+<CardId><![CDATA[p3hgew9XkkbkwPgTsmLu8YQw8Ink]]></CardId>
+<UserCardCode><![CDATA[384249670997]]></UserCardCode>
+</xml>
+
+2018-04-08 15:57:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'createtime' => '1523174255',
+    'msgtype' => 'event',
+    'event' => 'user_enter_session_from_card',
+    'cardid' => 'p3hgew9XkkbkwPgTsmLu8YQw8Ink',
+    'usercardcode' => '384249670997',
+    'from' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1523174255',
+    'type' => 'event',
+  ),
+)
+
+2018-04-08 15:57:36 response :
+------------
+
+2018-04-08 15:58:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwpSyVyzS7NLxDoSBVKHDzg]]></FromUserName>
+<CreateTime>1523174283</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[540292887504]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-04-08 15:58:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'createtime' => '1523174283',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '540292887504',
+    'outerstr' => '',
+    'from' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1523174283',
+    'type' => 'event',
+  ),
+)
+
+2018-04-08 15:58:04 response :
+------------
+
+2018-04-08 15:58:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwpSyVyzS7NLxDoSBVKHDzg]]></FromUserName>
+<CreateTime>1523174283</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_get_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<IsGiveByFriend>0</IsGiveByFriend>
+<UserCardCode><![CDATA[540292887504]]></UserCardCode>
+<FriendUserName><![CDATA[]]></FriendUserName>
+<OuterId>0</OuterId>
+<OldUserCardCode><![CDATA[]]></OldUserCardCode>
+<IsRestoreMemberCard>0</IsRestoreMemberCard>
+<IsRecommendByFriend>0</IsRecommendByFriend>
+<SourceScene><![CDATA[SOURCE_SCENE_QRCODE]]></SourceScene>
+<UnionId><![CDATA[oAAAAAKtervXdM_8ZKU6E_NrF4Hk]]></UnionId>
+</xml>
+
+2018-04-08 15:58:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'createtime' => '1523174283',
+    'msgtype' => 'event',
+    'event' => 'user_get_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'isgivebyfriend' => '0',
+    'usercardcode' => '540292887504',
+    'friendusername' => '',
+    'outerid' => '0',
+    'oldusercardcode' => '',
+    'isrestoremembercard' => '0',
+    'isrecommendbyfriend' => '0',
+    'sourcescene' => 'SOURCE_SCENE_QRCODE',
+    'unionid' => 'oAAAAAKtervXdM_8ZKU6E_NrF4Hk',
+    'from' => 'o3hgewwpSyVyzS7NLxDoSBVKHDzg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1523174283',
+    'type' => 'coupon',
+  ),
+)
+
+2018-04-08 15:58:04 response :
+------------
+

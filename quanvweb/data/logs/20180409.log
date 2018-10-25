@@ -1,0 +1,83 @@
+2018-04-09 13:32:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew3Udk4nDd4ttLiaHExiURHQ]]></FromUserName>
+<CreateTime>1523251919</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.027304</Latitude>
+<Longitude>113.342453</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-04-09 13:32:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'createtime' => '1523251919',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.027304',
+    'longitude' => '113.342453',
+    'precision' => '65.000000',
+    'from' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1523251919',
+    'type' => 'trace',
+    'location_x' => '23.027304',
+    'location_y' => '113.342453',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-09 13:32:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-04-09 17:33:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew2IIGxqv78o2SXY6dSNvIhY]]></FromUserName>
+<CreateTime>1523266375</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[134072229877]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-04-09 17:33:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew2IIGxqv78o2SXY6dSNvIhY',
+    'createtime' => '1523266375',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '134072229877',
+    'outerstr' => '',
+    'from' => 'o3hgew2IIGxqv78o2SXY6dSNvIhY',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1523266375',
+    'type' => 'event',
+  ),
+)
+
+2018-04-09 17:33:07 response :
+------------
+

@@ -1,0 +1,2392 @@
+2018-07-09 06:33:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1NtV3dSfp4PAfh1Cn5UYb6w]]></FromUserName>
+<CreateTime>1531089204</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 06:33:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1NtV3dSfp4PAfh1Cn5UYb6w',
+    'createtime' => '1531089204',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1NtV3dSfp4PAfh1Cn5UYb6w',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531089204',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 06:33:25 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1NtV3dSfp4PAfh1Cn5UYb6w ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 12:10:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DMbF7ywSw0VF3idsVT21YE]]></FromUserName>
+<CreateTime>1531109407</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 12:10:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DMbF7ywSw0VF3idsVT21YE',
+    'createtime' => '1531109407',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1DMbF7ywSw0VF3idsVT21YE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531109407',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 12:10:08 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1DMbF7ywSw0VF3idsVT21YE ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 13:24:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1LzWlcu9VVLkM5bEHABHxaE]]></FromUserName>
+<CreateTime>1531113860</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 13:24:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1LzWlcu9VVLkM5bEHABHxaE',
+    'createtime' => '1531113860',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1LzWlcu9VVLkM5bEHABHxaE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531113860',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 13:24:22 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1LzWlcu9VVLkM5bEHABHxaE ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 13:29:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1HSt-08Lyyl75uWlkAq35GQ]]></FromUserName>
+<CreateTime>1531114184</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 13:29:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1HSt-08Lyyl75uWlkAq35GQ',
+    'createtime' => '1531114184',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1HSt-08Lyyl75uWlkAq35GQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531114184',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 13:29:45 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1HSt-08Lyyl75uWlkAq35GQ ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 13:32:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ECtKt2sPMxCaYZUQyq7Eeg]]></FromUserName>
+<CreateTime>1531114330</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 13:32:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ECtKt2sPMxCaYZUQyq7Eeg',
+    'createtime' => '1531114330',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1ECtKt2sPMxCaYZUQyq7Eeg',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531114330',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 13:32:10 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1ECtKt2sPMxCaYZUQyq7Eeg ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 13:39:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1OO3Y5AxmOuwPs4uiY6wfvw]]></FromUserName>
+<CreateTime>1531114761</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 13:39:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1OO3Y5AxmOuwPs4uiY6wfvw',
+    'createtime' => '1531114761',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1OO3Y5AxmOuwPs4uiY6wfvw',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531114761',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 13:39:22 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1OO3Y5AxmOuwPs4uiY6wfvw ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 13:44:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Hippe3Z7YrodCyXJ4F80Vk]]></FromUserName>
+<CreateTime>1531115058</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 13:44:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Hippe3Z7YrodCyXJ4F80Vk',
+    'createtime' => '1531115058',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1Hippe3Z7YrodCyXJ4F80Vk',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531115058',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 13:44:18 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1Hippe3Z7YrodCyXJ4F80Vk ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 13:47:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KE1rhUatKLwmWtKR0Q2fbA]]></FromUserName>
+<CreateTime>1531115246</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 13:47:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KE1rhUatKLwmWtKR0Q2fbA',
+    'createtime' => '1531115246',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1KE1rhUatKLwmWtKR0Q2fbA',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531115246',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 13:47:26 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1KE1rhUatKLwmWtKR0Q2fbA ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 13:54:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1NEbMVPAmfpByhghGni1i1Y]]></FromUserName>
+<CreateTime>1531115666</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 13:54:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1NEbMVPAmfpByhghGni1i1Y',
+    'createtime' => '1531115666',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1NEbMVPAmfpByhghGni1i1Y',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531115666',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 13:54:27 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1NEbMVPAmfpByhghGni1i1Y ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:00:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A4BEIdVfvZCm_nS4K3eilk]]></FromUserName>
+<CreateTime>1531116037</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:00:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A4BEIdVfvZCm_nS4K3eilk',
+    'createtime' => '1531116037',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1A4BEIdVfvZCm_nS4K3eilk',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531116037',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:00:38 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1A4BEIdVfvZCm_nS4K3eilk ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:07:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PZCJeycHJ9uP08_QrdGH48]]></FromUserName>
+<CreateTime>1531116441</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:07:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PZCJeycHJ9uP08_QrdGH48',
+    'createtime' => '1531116441',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1PZCJeycHJ9uP08_QrdGH48',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531116441',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:07:22 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1PZCJeycHJ9uP08_QrdGH48 ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:13:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1LfvID2pDzrP_U9Jt6HQaEc]]></FromUserName>
+<CreateTime>1531116791</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:13:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1LfvID2pDzrP_U9Jt6HQaEc',
+    'createtime' => '1531116791',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1LfvID2pDzrP_U9Jt6HQaEc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531116791',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:13:11 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1LfvID2pDzrP_U9Jt6HQaEc ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:15:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1IMmiagdqBOCXcAps0oyKTU]]></FromUserName>
+<CreateTime>1531116939</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:15:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1IMmiagdqBOCXcAps0oyKTU',
+    'createtime' => '1531116939',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1IMmiagdqBOCXcAps0oyKTU',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531116939',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:15:39 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1IMmiagdqBOCXcAps0oyKTU ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:16:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AcddYhz5Dazn_uA_qcwvio]]></FromUserName>
+<CreateTime>1531116962</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:16:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AcddYhz5Dazn_uA_qcwvio',
+    'createtime' => '1531116962',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1AcddYhz5Dazn_uA_qcwvio',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531116962',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:16:02 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1AcddYhz5Dazn_uA_qcwvio ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:26:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1G2Hej4hifnjhxR_p_r9aFo]]></FromUserName>
+<CreateTime>1531117586</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:26:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1G2Hej4hifnjhxR_p_r9aFo',
+    'createtime' => '1531117586',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1G2Hej4hifnjhxR_p_r9aFo',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531117586',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:26:27 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1G2Hej4hifnjhxR_p_r9aFo ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:28:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KPThauKwQSsqNeOm2EzYgo]]></FromUserName>
+<CreateTime>1531117703</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:28:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KPThauKwQSsqNeOm2EzYgo',
+    'createtime' => '1531117703',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1KPThauKwQSsqNeOm2EzYgo',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531117703',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:28:24 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1KPThauKwQSsqNeOm2EzYgo ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:33:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1O5ME1kY2Fy0W0YaKRmtZ5M]]></FromUserName>
+<CreateTime>1531118032</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:33:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1O5ME1kY2Fy0W0YaKRmtZ5M',
+    'createtime' => '1531118032',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1O5ME1kY2Fy0W0YaKRmtZ5M',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531118032',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:33:52 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1O5ME1kY2Fy0W0YaKRmtZ5M ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:38:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1CQxw3wVLfd51EI4Dh3WaLU]]></FromUserName>
+<CreateTime>1531118300</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:38:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1CQxw3wVLfd51EI4Dh3WaLU',
+    'createtime' => '1531118300',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1CQxw3wVLfd51EI4Dh3WaLU',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531118300',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:38:20 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1CQxw3wVLfd51EI4Dh3WaLU ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 14:46:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JbnxI01d73-rMHwLLTJfvY]]></FromUserName>
+<CreateTime>1531118800</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 14:46:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JbnxI01d73-rMHwLLTJfvY',
+    'createtime' => '1531118800',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1JbnxI01d73-rMHwLLTJfvY',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531118800',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 14:46:40 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1JbnxI01d73-rMHwLLTJfvY ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:09:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ABonRc49Q5tWiJIEDnujFY]]></FromUserName>
+<CreateTime>1531120183</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:09:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ABonRc49Q5tWiJIEDnujFY',
+    'createtime' => '1531120183',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1ABonRc49Q5tWiJIEDnujFY',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531120183',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:09:45 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1ABonRc49Q5tWiJIEDnujFY ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:14:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GRwjY1524U3D-9O9mocHzI]]></FromUserName>
+<CreateTime>1531120494</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:14:54 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1GRwjY1524U3D-9O9mocHzI',
+    'createtime' => '1531120494',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1GRwjY1524U3D-9O9mocHzI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531120494',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:14:54 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1GRwjY1524U3D-9O9mocHzI ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:20:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1I21toO7Q-yuZ7O0c5zKhEg]]></FromUserName>
+<CreateTime>1531120847</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:20:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1I21toO7Q-yuZ7O0c5zKhEg',
+    'createtime' => '1531120847',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1I21toO7Q-yuZ7O0c5zKhEg',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531120847',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:20:47 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1I21toO7Q-yuZ7O0c5zKhEg ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:20:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1BAytQzXumVue7A65KPIuPU]]></FromUserName>
+<CreateTime>1531120848</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:20:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1BAytQzXumVue7A65KPIuPU',
+    'createtime' => '1531120848',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1BAytQzXumVue7A65KPIuPU',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531120848',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:20:48 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1BAytQzXumVue7A65KPIuPU ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:25:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ImFQg99zrLnzm-8uQj6hco]]></FromUserName>
+<CreateTime>1531121118</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:25:19 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ImFQg99zrLnzm-8uQj6hco',
+    'createtime' => '1531121118',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1ImFQg99zrLnzm-8uQj6hco',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531121118',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:25:19 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1ImFQg99zrLnzm-8uQj6hco ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:27:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1O2kV1KGGEQhXcoHTo-3EVM]]></FromUserName>
+<CreateTime>1531121262</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:27:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1O2kV1KGGEQhXcoHTo-3EVM',
+    'createtime' => '1531121262',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1O2kV1KGGEQhXcoHTo-3EVM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531121262',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:27:43 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1O2kV1KGGEQhXcoHTo-3EVM ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:32:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1BJ-qV9bO3sctYxzAdB8kNk]]></FromUserName>
+<CreateTime>1531121546</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:32:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1BJ-qV9bO3sctYxzAdB8kNk',
+    'createtime' => '1531121546',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1BJ-qV9bO3sctYxzAdB8kNk',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531121546',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:32:26 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1BJ-qV9bO3sctYxzAdB8kNk ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:32:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J5IBt7532ZVwaLSWWVQTjI]]></FromUserName>
+<CreateTime>1531121553</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:32:33 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'createtime' => '1531121553',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1J5IBt7532ZVwaLSWWVQTjI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531121553',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:32:33 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1J5IBt7532ZVwaLSWWVQTjI ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:44:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PeAxXCgoPxjsypj7OQalhs]]></FromUserName>
+<CreateTime>1531122264</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:44:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PeAxXCgoPxjsypj7OQalhs',
+    'createtime' => '1531122264',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1PeAxXCgoPxjsypj7OQalhs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531122264',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:44:24 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1PeAxXCgoPxjsypj7OQalhs ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 15:52:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AUPQOUTLASbM8Sqndd1O_A]]></FromUserName>
+<CreateTime>1531122732</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 15:52:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AUPQOUTLASbM8Sqndd1O_A',
+    'createtime' => '1531122732',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1AUPQOUTLASbM8Sqndd1O_A',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531122732',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 15:52:13 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1AUPQOUTLASbM8Sqndd1O_A ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 16:12:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1IdAhHOYCsAeYD-WmdZPaxM]]></FromUserName>
+<CreateTime>1531123926</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 16:12:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1IdAhHOYCsAeYD-WmdZPaxM',
+    'createtime' => '1531123926',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1IdAhHOYCsAeYD-WmdZPaxM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531123926',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 16:12:06 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1IdAhHOYCsAeYD-WmdZPaxM ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 16:14:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1LaxwlScedBm813gaqxGi2s]]></FromUserName>
+<CreateTime>1531124088</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-09 16:14:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1LaxwlScedBm813gaqxGi2s',
+    'createtime' => '1531124088',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1LaxwlScedBm813gaqxGi2s',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531124088',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-09 16:14:48 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1LaxwlScedBm813gaqxGi2s ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-09 16:20:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531124428</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361249663313133568</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 16:20:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531124428',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361249663313133568',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531124428',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 16:20:29 response :
+------------
+
+2018-07-09 16:22:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531124549</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361251688222441472</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 16:22:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531124549',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361251688222441472',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531124549',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 16:22:30 response :
+------------
+
+2018-07-09 16:27:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531124832</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361256440704417793</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 16:27:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531124832',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361256440704417793',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531124832',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 16:27:13 response :
+------------
+
+2018-07-09 16:33:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531125198</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361262573531840512</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 16:33:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531125198',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361262573531840512',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531125198',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 16:33:18 response :
+------------
+
+2018-07-09 16:37:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531125437</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361266584695750660</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 16:37:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531125437',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361266584695750660',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531125437',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 16:37:17 response :
+------------
+
+2018-07-09 18:10:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531131030</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361360419799056384</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 18:10:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531131030',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361360419799056384',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531131030',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 18:10:30 response :
+------------
+
+2018-07-09 18:21:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531131685</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361371400168161282</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 18:21:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531131685',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361371400168161282',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531131685',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 18:21:25 response :
+------------
+
+2018-07-09 18:32:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1531132368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361382858822139904</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 18:32:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1531132368',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361382858822139904',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531132368',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 18:32:48 response :
+------------
+
+2018-07-09 20:14:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PeAxXCgoPxjsypj7OQalhs]]></FromUserName>
+<CreateTime>1531138470</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[为什么预约钱交了显示预约失败]]></Content>
+<MsgId>6576189654852272943</MsgId>
+</xml>
+
+2018-07-09 20:14:31 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PeAxXCgoPxjsypj7OQalhs',
+    'createtime' => '1531138470',
+    'msgtype' => 'text',
+    'content' => '为什么预约钱交了显示预约失败',
+    'msgid' => '6576189654852272943',
+    'from' => 'o4s6w1PeAxXCgoPxjsypj7OQalhs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531138470',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-09 20:14:31 response :
+------------
+
+2018-07-09 20:57:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1531141034</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361528258665250817</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 20:57:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1531141034',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361528258665250817',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531141034',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 20:57:14 response :
+------------
+
+2018-07-09 20:57:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1531141071</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>361528879925559298</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-09 20:57:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1531141071',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '361528879925559298',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531141071',
+    'type' => 'event',
+  ),
+)
+
+2018-07-09 20:57:51 response :
+------------
+

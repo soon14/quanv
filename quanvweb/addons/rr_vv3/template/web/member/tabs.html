@@ -1,0 +1,82 @@
+<style type='text/css'>
+
+    .member-list a {
+
+        position: relative;
+
+    }
+
+    .member-list span  {
+
+     
+
+    float:right;margin-right:20px;
+
+    }
+
+</style>
+<ul class="menu-head-top">
+    <li {if $_W['action']=='member'} class="active" {/if}><a href="{php echo webUrl('member')}">会员概述 <i class="fa fa-caret-right"></i></a></li>
+</ul>
+
+{ifp 'member.list|member.level|member.group|member.doctors|member.patients|member.department'}
+<div class='menu-header'>会员</div>
+<ul class='member-list'>
+	{ifp 'member.list'}
+    	<li {if $_W['action']=='member.list'} class="active" {/if}><a href="{php echo webUrl('member/list')}">会员管理</a></li>
+    {/if}
+    {ifp 'member.level'}
+    	<li {if $_W['action']=='member.level'} class="active" {/if}><a href="{php echo webUrl('member/level')}">会员等级</a></li>
+    {/if}
+    {ifp 'member.group'}
+    	<li {if $_W['action']=='member.group'} class="active" {/if}><a href="{php echo webUrl('member/group')}">会员分组</a></li>
+    {/if}
+
+    {ifp 'member.list'}
+
+        <li {if $_W['action']=='member.auditing'} class="active" {/if}><a href="{php echo webUrl('member/auditing')}">待审核 <span class='text-danger isaudit'>--</span></a></li>
+
+    {/if}
+    <!-- 修改人：caifang -->
+    {ifp 'member.doctors'}
+        <li {if $_W['action']=='member.doctors'} class="active" {/if}><a href="{php echo webUrl('member/doctors')}">医生管理</a></li>
+    {/if}
+    
+    {ifp 'member.patients'}
+        <li {if $_W['action']=='member.patients'} class="active" {/if}><a href="{php echo webUrl('member/patients')}">患者管理</a></li>
+    {/if}
+    {ifp 'member.department'}
+        <li {if $_W['action']=='member.department'} class="active" {/if}><a href="{php echo webUrl('member/department')}">科室分类</a></li>
+    {/if}
+    {ifp 'member.card'}
+        {if com('wxcard')}
+            <li {if $_W['action']=='member.group'} class="active" {/if}><a href="{php echo webUrl('member/card')}">微信会员卡设置</a></li>
+        {/if}
+    {/if}
+</ul>
+{/if}
+
+<!-- {ifp 'member.rank'}
+<div class='menu-header'>设置</div>
+<ul>
+    <li {if $_W['action']=='member.rank'} class="active" {/if}><a href="{php echo webUrl('member/rank')}">排行榜</a></li>
+</ul>
+{/if} -->
+<script>
+
+    $(function () {
+
+        $.ajax({type: "GET",url: "{php echo webUrl('member/auditing/ajaxgettotals')}",dataType:"json",success: function(data){
+
+                var res = data.result;
+
+                $("span.isaudit").text(res.isaudit);
+
+            }
+
+        });
+
+    });
+
+</script>
+<!--yifuyuanma-->

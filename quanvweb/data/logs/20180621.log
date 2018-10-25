@@ -1,0 +1,97 @@
+2018-06-21 03:31:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1MJVoKtyhWfXlCWa21D0C2Y]]></FromUserName>
+<CreateTime>1529523115</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-21 03:31:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1MJVoKtyhWfXlCWa21D0C2Y',
+    'createtime' => '1529523115',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1MJVoKtyhWfXlCWa21D0C2Y',
+    'to' => 'gh_8a317808696e',
+    'time' => '1529523115',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-21 03:31:57 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1MJVoKtyhWfXlCWa21D0C2Y ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-21 08:50:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1MrZT9c6b46ufCJwuSE5dVw]]></FromUserName>
+<CreateTime>1529542247</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-21 09:18:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1HtHw4uOc6vZWzgWr3On6_Q]]></FromUserName>
+<CreateTime>1529543919</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-21 13:18:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1OM7900fXO7XFhRsObPwlcM]]></FromUserName>
+<CreateTime>1529558316</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

@@ -1,0 +1,269 @@
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">讲座标题</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'lectures.edit'}
+
+        <input type="text" name="lecture_title" class="form-control" value="{$info['lecture_title']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['lecture_title']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">讲座简介</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'lectures.edit'}
+
+        <textarea name="lecture_introduction" style="height:100px;" class='form-control'>{$info['lecture_introduction']}</textarea>
+
+        {else}
+
+        <div class='form-control-static'>{$info['lecture_introduction']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">讲座封面</label>
+
+    <div class="col-sm-9 col-xs-12">
+		
+			{php echo tpl_form_field_image('cover_url', $info['cover_url'])}
+		
+	</div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">主讲人</label>
+
+    <div class="col-sm-9 col-xs-12">
+	
+		 <div class='form-control-static'>{$info['lecture_author']}</div>
+        
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">预报名人数</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'lectures.edit'}
+
+        <input type="text" name="lecture_nums" class="form-control" value="{$info['lecture_nums']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['lecture_nums']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">报名费用(/每人次)</label>
+
+    <div class="col-sm-5 col-xs-12">
+		<div class="input-group">
+		  <div class="input-group-addon">￥</div>
+		  <input type="text" name="lecture_cost" class="form-control"  placeholder="价格" value="{if $info['lecture_cost']>0}{php echo sprintf("%.2f",$info['lecture_cost'])}{/if}">
+		  <div class="input-group-addon">元</div>
+		</div>
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">讲座地址</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'lectures.edit'}
+
+        <input type="text" name="lecture_address" class="form-control" value="{$info['lecture_address']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['lecture_address']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">讲座开始时间</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <!-- <div class='form-control-static'>{$info['start_time']} -- {$info['end_time']}</div> -->
+        <div class='form-control-static'>{php echo _tpl_form_field_date('start_time', $info['start_time'], $withtime = true)}</div>
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">讲座结束时间</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <!-- <div class='form-control-static'>{$info['start_time']} -- {$info['end_time']}</div> -->
+        <div class='form-control-static'>{php echo _tpl_form_field_date('end_time', $info['end_time'], $withtime = true)}</div>
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">已报名人数</label>
+
+    <div class="col-sm-9 col-xs-12">
+	
+		 <div class='form-control-static'>{$info['apply_nums']}人&nbsp&nbsp&nbsp&nbsp&nbsp
+			<!-- <a href="{php echo webUrl('lectures/post/apply_list',array('id' => $info['id'],'lecture_title' => $info['lecture_title']));}" target="_blank" title="查看已报名会员"><i class='fa fa-edit'></i> 查看已报名会员</a> -->
+		 </div>
+		
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">备注</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'lectures.edit'}
+
+        <textarea name="remark" style="height:100px;" class='form-control'>{$info['remark']}</textarea>
+
+        {else}
+
+        <div class='form-control-static'>{$info['remark']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">审核状态</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+		<div class='form-control-static'>
+			<label class='label {if $info['status'] == 0}{elseif $info['status'] == 1}label-danger{elseif $info['status'] == 3}{elseif $info['status'] == 2}label-success{/if}'>
+			{if $info['status'] == 0}待审核
+			{elseif $info['status'] == 1}未通过
+			{elseif $info['status'] == 2}已通过
+			{elseif $info['status'] == 3}已删除
+			{/if}
+			</label>
+		</div>
+
+	</div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">发布状态</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <div class='form-control-static'>
+		<label class='label {if $info['isshow'] == 0}label-warning{elseif $info['isshow'] == 1}label-primary{/if}'>
+		{if $info['isshow'] == 0}未发布
+		{elseif $info['isshow'] == 1}已发布
+		{/if}
+		</label>
+		</div>
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">提交时间</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <div class='form-control-static'>{php echo date("Y-m-d H:i:s",$info['createtime'])}</div>
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">发布时间</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <div class='form-control-static'>{if $info['releasetime']>0}{php echo date("Y-m-d H:i:s",$info['releasetime'])}{else}该讲座暂未发布{/if}</div>
+
+    </div>
+
+</div>
+
+
+
+<script type="text/javascript">
+    
+    $(function () {
+
+        $(".btn-maxcredit").unbind('click').click(function () {
+
+            var val = $(this).val();
+
+            if(val==1){
+
+                $(".maxcreditinput").css({'display':'inline-block'});
+
+            }else{
+
+                $(".maxcreditinput").css({'display':'none'});
+
+            }
+
+        });
+        
+
+    })
+
+
+</script>
+

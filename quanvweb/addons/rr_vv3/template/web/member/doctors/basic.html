@@ -1,0 +1,335 @@
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">医生</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <img src='{$member['avatar']}' style='width:50px;height:50px;padding:1px;border:1px solid #ccc' />
+
+        {if strexists($member['openid'],'sns_wa_')}
+
+            <i class="icon icon-wxapp" data-toggle="tooltip" data-placement="top" data-original-title="小程序注册" style="color: #7586db;"></i>
+
+        {/if}
+
+        {if strexists($member['openid'],'wap_user_')||strexists($member['openid'],'sns_qq_')||strexists($member['openid'],'sns_wx_')}
+
+            <i class="icon icon-mobile2" data-toggle="tooltip" data-placement="top" data-original-title="{if strexists($member['openid'],'wap_user_')}手机号注册{else}APP注册{/if}" style="color: #44abf7;"></i>
+
+        {/if}
+
+        {if empty($member['realname'])}{$member['nickname']}{else}{$member['realname']}{/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">OPENID</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <div class="form-control-static js-clip" data-url='{$member['openid']}'>{$member['openid']}</div>
+
+</div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">医生二维码</label>
+
+    <div class="col-sm-9 col-xs-12" id="docqrcode">
+
+        <!-- docqrcode<img src='https://v.mctimes.cn/attachment/images/wxapperweima/sns_wa_oa2sn41f3Gf489zLu1rA8FGVeBk0.jpg' style='width:100px;height:100px;padding:1px;border:1px solid #ccc' /> -->
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">所属医院</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.doctors.edit'}
+
+        <input type="text" name="hospital" class="form-control" value="{$info['hospital']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['hospital']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">职务</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.doctors.edit'}
+
+        <input type="text" name="job" class="form-control" value="{$info['job']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['job']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">科室</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.doctors.edit'}
+
+        <select name='parent' class='form-control'>
+            
+            <option value=''>请选择科室</option>
+            {loop $parents $parent}
+
+                {if $info['departmentid']==$parent['id']}
+                    <option value='{$parent['id']}' selected>{$parent['name']}</option>
+                {elseif $info['parentid']==$parent['id']}
+                    <option value='{$parent['id']}' selected>{$parent['name']}</option>
+                {else}
+                    <option value='{$parent['id']}'>{$parent['name']}</option>
+                {/if}
+
+            {/loop}
+
+        </select>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<!-- <div class="form-group">
+
+    <label class="col-sm-2 control-label">推荐指数</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.doctors.edit'}
+
+        <input type="text" name="recommend_index" class="form-control" value="{$info['recommend_index']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['recommend_index']}</div>
+		
+        {/if}
+		<div><span id="helpBlock" class="help-block" style="color:red;">最高5颗星星，1代表1颗星星</span></div>
+    </div>
+	
+</div> -->
+
+<!-- <div class="form-group">
+
+    <label class="col-sm-2 control-label">擅长领域</label>
+
+    <div class="col-sm-9 col-xs-12">
+	
+		{ifp 'member.doctors.edit'}
+		
+		{loop $specialty $spe}
+        <label class="checkbox-inline">
+		
+			<input type="checkbox" id="inlineCheckbox{$spe['id']}" name="specialty[]" value="{$spe['id']}" {if in_array($spe['id'],$info['specialty'])}checked{/if} /> {$spe['title']}
+		
+		</label>
+		{/loop}
+		
+        {/if}
+		<div><span id="helpBlock" class="help-block" style="color:red;">擅长领域标签为多选</span></div>
+    </div>
+	
+</div> -->
+
+
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">医生简介</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.doctors.edit'}
+
+        <textarea name="resume" style="height:200px;" class='form-control'>{$info['resume']}</textarea>
+
+        {else}
+
+        <div class='form-control-static'>{$info['resume']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">身份证信息</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.doctors.edit'}
+
+        <!-- <input type="text" name="id_card" class="form-control" value="{$info['id_card']}" /> -->
+		
+		{php echo tpl_form_field_image('front', $info['id_card']['front'])}
+         <span class='help-block'>身份证正面图片</span>
+		{php echo tpl_form_field_image('verso', $info['id_card']['verso'])}
+         <span class='help-block'>身份证反面图片</span>
+	
+        {else}
+
+        <!-- <div class='form-control-static'>{$info['id_card']}</div> -->
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+    <label class="col-sm-2 control-label must">执业医师证书</label>
+    <div class="col-sm-9 col-xs-12 gimgs">
+        {ifp 'member.doctors.edit'}
+        {php echo tpl_form_field_multi_image('practice_doctors_certificate',$info['practice_doctors_certificate'])}
+        <span class="help-block image-block">第一张为缩略图，建议为正方型图片，其他为详情页面图片，尺寸建议宽度为640，并保持图片大小一致</span>
+        <span class="help-block">您可以拖动图片改变其显示顺序 </span>
+        {else}
+        {loop $info['practice_doctors_certificate'] $p}
+        <a href='{$p}' target='_blank'>
+            <img src="{$p}" style='height:100px;border:1px solid #ccc;padding:1px;float:left;margin-right:5px;' />
+        </a>
+        {/loop}
+        {/if}
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="col-sm-2 control-label must">医师资格证</label>
+    <div class="col-sm-9 col-xs-12 gimgs">
+		{ifp 'member.doctors.edit'}
+        {php echo tpl_form_field_multi_image('doctor_certificate',$info['doctor_certificate'])}
+        <span class="help-block image-block">第一张为缩略图，建议为正方型图片，其他为详情页面图片，尺寸建议宽度为640，并保持图片大小一致</span>
+        <span class="help-block">您可以拖动图片改变其显示顺序 </span>
+        {else}
+        {loop $info['doctor_certificate'] $p}
+        <a href='{$p}' target='_blank'>
+            <img src="{$p}" style='height:100px;border:1px solid #ccc;padding:1px;float:left;margin-right:5px;' />
+        </a>
+        {/loop}
+        {/if}
+    </div>
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">注册时间</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <div class='form-control-static'>{php echo date("Y-m-d H:i:s",$info['createtime'])}</div>
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">是否在线</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.doctors.edit'}
+
+        <label class="radio-inline"><input type="radio" name="status" value="1" {if $info['status']==1}checked{/if}>是</label>
+
+        <label class="radio-inline" ><input type="radio" name="status" value="0" {if $info['status']==0}checked{/if}>否</label>
+
+        {else}
+
+        <div class='form-control-static'>{if $info['status']==1}是{else}否{/if}</div>
+
+        {/if}
+
+
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    
+    $(function () {
+
+        $(".btn-maxcredit").unbind('click').click(function () {
+
+            var val = $(this).val();
+
+            if(val==1){
+
+                $(".maxcreditinput").css({'display':'inline-block'});
+
+            }else{
+
+                $(".maxcreditinput").css({'display':'none'});
+
+            }
+
+        });
+
+        var param = {"openid": "{$member['openid_wa']}"};
+
+        $.ajax({
+            type: "POST",
+            url: "https://v.mctimes.cn/app/rr_vv3_api.php?i={$_W['uniacid']}&r=member.getqrcode.get_data&comefrom=wxapp&openid=&mid=&merchid=&authkey=&timestamp=",
+            data: {param:param},
+            dataType:"json",
+            success: function(data){
+                if(data.file_url != ''){
+                    var str = "<a href='"+data.file_url+"'><img src='"+data.file_url+"' style='width:100px;height:100px;padding:1px;border:1px solid #ccc' /> </a>";
+                    $('#docqrcode').append(str);
+                }
+            }
+        });
+        
+
+    })
+
+
+</script>
+

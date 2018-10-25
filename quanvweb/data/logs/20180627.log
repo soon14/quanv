@@ -1,0 +1,906 @@
+2018-06-27 00:25:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DXksdupHmS81NM_9ozxHws]]></FromUserName>
+<CreateTime>1530030344</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 00:25:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DXksdupHmS81NM_9ozxHws',
+    'createtime' => '1530030344',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1DXksdupHmS81NM_9ozxHws',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530030344',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-27 00:25:45 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1DXksdupHmS81NM_9ozxHws ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-27 07:55:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PA6JDnyrJWneE0qCUxCzOo]]></FromUserName>
+<CreateTime>1530057331</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343346744538562560</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 07:55:31 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PA6JDnyrJWneE0qCUxCzOo',
+    'createtime' => '1530057331',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343346744538562560',
+    'status' => 'success',
+    'from' => 'o4s6w1PA6JDnyrJWneE0qCUxCzOo',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530057331',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 07:55:31 response :
+------------
+
+2018-06-27 07:59:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1I-dTq3PedPz4j0pvb6Hj7Y]]></FromUserName>
+<CreateTime>1530057550</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343350410175676416</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 07:59:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1I-dTq3PedPz4j0pvb6Hj7Y',
+    'createtime' => '1530057550',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343350410175676416',
+    'status' => 'success',
+    'from' => 'o4s6w1I-dTq3PedPz4j0pvb6Hj7Y',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530057550',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 07:59:10 response :
+------------
+
+2018-06-27 09:35:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1IwX5YPOQyA9bKGaorrgR2E]]></FromUserName>
+<CreateTime>1530063310</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 09:35:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1IwX5YPOQyA9bKGaorrgR2E',
+    'createtime' => '1530063310',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1IwX5YPOQyA9bKGaorrgR2E',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530063310',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-27 09:35:12 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1IwX5YPOQyA9bKGaorrgR2E ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-27 10:52:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1EjvvnpWBLs7DJ4ZnmUeUe4]]></FromUserName>
+<CreateTime>1530067947</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 10:52:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1EjvvnpWBLs7DJ4ZnmUeUe4',
+    'createtime' => '1530067947',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1EjvvnpWBLs7DJ4ZnmUeUe4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530067947',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-27 10:52:28 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1EjvvnpWBLs7DJ4ZnmUeUe4 ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-27 12:24:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1530073485</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343617754324369409</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 12:24:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1530073485',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343617754324369409',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530073485',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 12:24:45 response :
+------------
+
+2018-06-27 13:19:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Drxo9_kkm2sC2MhYkszLkE]]></FromUserName>
+<CreateTime>1530076759</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343672690932056064</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 13:19:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Drxo9_kkm2sC2MhYkszLkE',
+    'createtime' => '1530076759',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343672690932056064',
+    'status' => 'success',
+    'from' => 'o4s6w1Drxo9_kkm2sC2MhYkszLkE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530076759',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 13:19:20 response :
+------------
+
+2018-06-27 13:26:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1530077195</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343680001067286528</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 13:26:35 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1530077195',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343680001067286528',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530077195',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 13:26:35 response :
+------------
+
+2018-06-27 13:27:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KleUc7-_LeBEcbAuK7TjYI]]></FromUserName>
+<CreateTime>1530077267</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/8SMCO3LEtGicTdbNPx30q02LxhR8Z3JrzBOskicicwBRJEiauQHiciaTMVBsJ8wxGhC6ZSCibe1DB5TCj6OPQYcDOfic6w/0]]></PicUrl>
+<MsgId>6571631822671300685</MsgId>
+<MediaId><![CDATA[novU46Mt_zEdVHTBwX9_sdN6NCYp6m4ewwyDCCXnmxYmBA0K2TqsqExzJbLWXCgD]]></MediaId>
+</xml>
+
+2018-06-27 13:27:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KleUc7-_LeBEcbAuK7TjYI',
+    'createtime' => '1530077267',
+    'msgtype' => 'image',
+    'picurl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/8SMCO3LEtGicTdbNPx30q02LxhR8Z3JrzBOskicicwBRJEiauQHiciaTMVBsJ8wxGhC6ZSCibe1DB5TCj6OPQYcDOfic6w/0',
+    'msgid' => '6571631822671300685',
+    'mediaid' => 'novU46Mt_zEdVHTBwX9_sdN6NCYp6m4ewwyDCCXnmxYmBA0K2TqsqExzJbLWXCgD',
+    'from' => 'o4s6w1KleUc7-_LeBEcbAuK7TjYI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530077267',
+    'type' => 'image',
+    'event' => NULL,
+    'url' => 'http://mmbiz.qpic.cn/mmbiz_jpg/8SMCO3LEtGicTdbNPx30q02LxhR8Z3JrzBOskicicwBRJEiauQHiciaTMVBsJ8wxGhC6ZSCibe1DB5TCj6OPQYcDOfic6w/0',
+  ),
+)
+
+2018-06-27 13:27:51 response :
+------------
+
+2018-06-27 13:28:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KleUc7-_LeBEcbAuK7TjYI]]></FromUserName>
+<CreateTime>1530077280</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[付款成功，但是预约失败]]></Content>
+<MsgId>6571631878505875559</MsgId>
+</xml>
+
+2018-06-27 13:28:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KleUc7-_LeBEcbAuK7TjYI',
+    'createtime' => '1530077280',
+    'msgtype' => 'text',
+    'content' => '付款成功，但是预约失败',
+    'msgid' => '6571631878505875559',
+    'from' => 'o4s6w1KleUc7-_LeBEcbAuK7TjYI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530077280',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-06-27 13:28:01 response :
+------------
+
+2018-06-27 13:29:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Drxo9_kkm2sC2MhYkszLkE]]></FromUserName>
+<CreateTime>1530077360</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343682765566377987</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 13:29:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Drxo9_kkm2sC2MhYkszLkE',
+    'createtime' => '1530077360',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343682765566377987',
+    'status' => 'success',
+    'from' => 'o4s6w1Drxo9_kkm2sC2MhYkszLkE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530077360',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 13:29:20 response :
+------------
+
+2018-06-27 13:30:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1530077404</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343683515474608135</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 13:30:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1530077404',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343683515474608135',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530077404',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 13:30:05 response :
+------------
+
+2018-06-27 13:33:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Drxo9_kkm2sC2MhYkszLkE]]></FromUserName>
+<CreateTime>1530077608</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343686931667877889</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 13:33:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Drxo9_kkm2sC2MhYkszLkE',
+    'createtime' => '1530077608',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343686931667877889',
+    'status' => 'success',
+    'from' => 'o4s6w1Drxo9_kkm2sC2MhYkszLkE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530077608',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 13:33:28 response :
+------------
+
+2018-06-27 13:38:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PA6JDnyrJWneE0qCUxCzOo]]></FromUserName>
+<CreateTime>1530077915</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>343692086635266049</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-27 13:38:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PA6JDnyrJWneE0qCUxCzOo',
+    'createtime' => '1530077915',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '343692086635266049',
+    'status' => 'success',
+    'from' => 'o4s6w1PA6JDnyrJWneE0qCUxCzOo',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530077915',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 13:38:36 response :
+------------
+
+2018-06-27 16:23:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1NP3r8aDnBlI1zAlfDftgig]]></FromUserName>
+<CreateTime>1530087796</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 16:23:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1NP3r8aDnBlI1zAlfDftgig',
+    'createtime' => '1530087796',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1NP3r8aDnBlI1zAlfDftgig',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530087796',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-27 16:23:17 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1NP3r8aDnBlI1zAlfDftgig ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-27 16:27:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew6R6D1sM22Z2Bifflkjoq40]]></FromUserName>
+<CreateTime>1530088052</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.017645</Latitude>
+<Longitude>113.747467</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-06-27 16:27:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew6R6D1sM22Z2Bifflkjoq40',
+    'createtime' => '1530088052',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.017645',
+    'longitude' => '113.747467',
+    'precision' => '30.000000',
+    'from' => 'o3hgew6R6D1sM22Z2Bifflkjoq40',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1530088052',
+    'type' => 'trace',
+    'location_x' => '23.017645',
+    'location_y' => '113.747467',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-06-27 16:27:32 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-06-27 16:27:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew6R6D1sM22Z2Bifflkjoq40]]></FromUserName>
+<CreateTime>1530088058</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 17:58:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GBSffmVSLuvdJ0JS3coYtg]]></FromUserName>
+<CreateTime>1530093493</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>1000000017</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>1634</TotalCount>
+<FilterCount>1634</FilterCount>
+<SentCount>1634</SentCount>
+<ErrorCount>0</ErrorCount>
+<CopyrightCheckResult><Count>0</Count>
+<ResultList></ResultList>
+<CheckState>0</CheckState>
+</CopyrightCheckResult>
+</xml>
+
+2018-06-27 17:58:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1GBSffmVSLuvdJ0JS3coYtg',
+    'createtime' => '1530093493',
+    'msgtype' => 'event',
+    'event' => 'MASSSENDJOBFINISH',
+    'msgid' => '1000000017',
+    'status' => 'send success',
+    'totalcount' => '1634',
+    'filtercount' => '1634',
+    'sentcount' => '1634',
+    'errorcount' => '0',
+    'copyrightcheckresult' => 
+    array (
+      'count' => '0',
+      'resultlist' => '',
+      'checkstate' => '0',
+    ),
+    'from' => 'o4s6w1GBSffmVSLuvdJ0JS3coYtg',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530093493',
+    'type' => 'event',
+  ),
+)
+
+2018-06-27 17:58:13 response :
+------------
+
+2018-06-27 17:58:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AP_d19ivk_GiEL5w6uqNOI]]></FromUserName>
+<CreateTime>1530093529</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 18:01:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1CB-hTmC20CS94cLyxmLfbs]]></FromUserName>
+<CreateTime>1530093713</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 18:17:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JmZTJjtBkm3jbP3DmhhgH4]]></FromUserName>
+<CreateTime>1530094659</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 18:17:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JmZTJjtBkm3jbP3DmhhgH4',
+    'createtime' => '1530094659',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1JmZTJjtBkm3jbP3DmhhgH4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530094659',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-27 18:17:40 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1JmZTJjtBkm3jbP3DmhhgH4 ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-27 19:43:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Mc1LZwHKvgcvQyushdsZ6A]]></FromUserName>
+<CreateTime>1530099829</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 20:36:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1OvcJdGHGC7prvUy8Tr7ZzM]]></FromUserName>
+<CreateTime>1530102979</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 22:08:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Piz5c2qSqrqIz07UJZXW3w]]></FromUserName>
+<CreateTime>1530108510</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-27 22:51:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1BQeOZwzP6L9oGBH5Aq0IqU]]></FromUserName>
+<CreateTime>1530111091</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>和{$sanfanskefu['fansnickname']}的对话</title>
+    <link rel="stylesheet" href="{MD_ROOT}static/newui/css/reset.css"/>
+	<link rel="stylesheet" href="{MD_ROOT}static/iconfont/iconfont.css?v=20170910"/>
+	<link rel="stylesheet" href="{MD_ROOT}static/css/weui.min.css"/>
+	<link rel="stylesheet" href="{MD_ROOT}static/css/jquery-weui.min.css"/>
+	<link rel="stylesheet" href="{MD_ROOT}static/newui/css/style.css?v=20170910"/>
+	<link rel="stylesheet" href="{MD_ROOT}/emoji/emoji.css"/>
+	<link rel="stylesheet" href="{MD_ROOT}static/newui/css/swiper-3.3.1.min.css"/>
+	{php echo register_jssdk(false);}
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+    </script>
+</head>
+
+<body class="chat" style="background-color:{$setting['bgcolor']};">	
+	{if $goods}
+	<div class="goodsmsg">
+		<div class="imggoods"><img src="{$goods['thumb']}" /></div>
+		<div class="text">
+			<div class="name">{$goods['title']}</div>
+			<div class="price">￥{$goods['price']}</div>
+		</div>
+	</div>
+	{/if}
+
+   <!--录音区域-->	
+	<div class="fx-audio hide">
+        <i class="audio-start"><span class="iconfont">&#xe643;</span></i>
+        <p>正在录音中...</p>
+    </div>
+	
+	<!--消息内容-->
+    <div class="chat-content" id="messagelist" {if $goods}style="-webkit-overflow-scrolling:touch;clear:both;padding-top:1.9rem;"{else}style="-webkit-overflow-scrolling:touch;clear:both;"{/if}>
+	<div class="main">
+		{if $chatcon}
+			{loop $chatcon $row}
+			<div class="chat-msg">
+				{if !empty($row['time'])}
+				<div class="time">{php echo date('Y-m-d H:i:s',$row['time'])}</div>
+				{/if}
+				{if $row['openid'] != $openid}
+				<div class="msg left clear">
+				{else}
+				<div class="msg right clear">
+				{/if}
+					<div class="nick-img">
+						{if $row['openid'] == $sanfanskefu['fansopenid']}
+						<img src="{$sanfanskefu['fansavatar']}" alt=""/>
+						{else}
+						<img src="{$sanfanskefu['kefuavatar']}" alt=""/>
+						{/if}
+					</div>
+					<div class="nick-text">
+						<div class="txt-con">
+							{if $row['type'] == 2}
+							<img src="{$row['content']}" class="sssbbb" data-myid="{$row['id']}" style="max-width:100%;"  />
+							{elseif $row['type'] == 3}
+								<span class="audio-msg voiceplay" style="width:{php echo (($row['yuyintime']*3.5)/60)+0.3}rem;" onclick="playvoice('{$row['content']}',$(this).parents('.txt-con').next('.weidu'));"><i class="a-icon iconfont">&#xe601;</i></span>
+							{else}
+								{$row['content']}
+							{/if}
+						</div>
+						{if $row['type'] == 3}
+						{if $row['hasyuyindu'] == 0 && $openid != $row['openid']}<span class="weidu"></span>{/if}
+						<span class="miaoshu">{$row['yuyintime']}''</span>
+						{/if}
+					</div>
+				</div>
+			</div>
+			{/loop}
+		{/if}
+	</div>
+	</div>
+
+	<!--回复输入区域-->	
+	<div class="chat-input" style="position:fixed;bottom:0;">
+		<div class="audio iconfont">&#xe686;</div>
+		<div class="jianpan iconfont hide">&#xe689;</div>
+		
+		<div class="input" style="width:3.9rem;">
+			<textarea type="text" class="cell input-txt" id="chatcontent" onkeydown="KeyDown()" placeholder="请输入咨询内容..."></textarea>
+		</div>
+		
+		<div class="saymsg hide" style="width:3.9rem;">
+			<div class="saybutton">按住  说话</div>
+		</div>
+		
+		<div class="other">
+			<div class="qqface iconfont">&#xe688;</div>
+			<div class="jia iconfont">&#xe687;</div>
+			<div class="send dosub" id="btnSend">发送</div>
+		</div>
+    </div>
+	
+	<div class="showmore hide">
+		<div class="camera itemitem">
+			<div class="item">
+				<div class="photo iconfont">&#xe647;</div>
+				<div class="text">上传图片</div>
+			</div>
+		</div>
+		<a href="{php echo $this->createMobileUrl('disanfang',array('qudao'=>$qudao,'goodsid'=>$goodsid))}" style="color:#999;">
+		<div class="itemitem">
+			<div class="item">
+				<div class="shareall iconfont">&#xe608;</div>
+				<div class="text">聊天记录</div>
+			</div>
+		</div>
+		</a>
+	</div>
+	
+	<div class="swiper-container swiper-container-face hide">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<?php 
+					for($i=1;$i<=32;$i++){
+						echo '<img class="faceitem" src="../addons/v_customerservice/static/arclist/'.$i.'.gif" data-emstr="[em_'.$i.']" />';
+					}
+				?>
+			</div>
+			<div class="swiper-slide">
+				<?php 
+
+					for($i=33;$i<=64;$i++){
+						echo '<img class="faceitem" src="../addons/v_customerservice/static/arclist/'.$i.'.gif" data-emstr="[em_'.$i.']" />';
+					}
+				?>
+			</div>
+			<div class="swiper-slide">
+				<?php 
+
+					for($i=65;$i<=75;$i++){
+						echo '<img class="faceitem" src="../addons/v_customerservice/static/arclist/'.$i.'.gif" data-emstr="[em_'.$i.']" />';
+					}
+				?>
+			</div>
+		</div>
+		<!-- Add Pagination -->
+	</div>
+	
+<input type="hidden" id="toopenid" value="{$toopenid}" />
+</body>
+<script src="{MD_ROOT}/static/newui/js/socket.io.js"></script>
+<script src="{MD_ROOT}/static/newui/js/jquery-3.1.1.min.js"></script>
+<script src="{MD_ROOT}/static/newui/js/jquery-weui.min.js"></script>
+<script src="{MD_ROOT}/static/newui/js/swiper.min.js"></script>
+<script>
+	$(".swiper-container-face").removeClass('hide');
+	var mySwiper2 = new Swiper('.swiper-container-face', {
+		paginationClickable: false,
+		spaceBetween: 0,
+		centeredSlides: true,
+		autoplay: 0,
+		loop:false,
+		autoplayDisableOnInteraction: false
+	})
+	//隐藏表情div
+	$(".swiper-container-face").addClass('hide');
+	var uid = "{$openid}{$toopenid}";
+	var sendurl = 'https://api.qiumipai.com:2121/?type=publish&to={$toopenid}{$openid}';
+	var windowHeight = $(window).height();
+	var cansend = 1;
+    $(function(){
+		domInit();
+		// 连接服务端
+		var socket = io('https://api.qiumipai.com:2120');
+		// 连接后登录
+		socket.on('connect', function(){
+			socket.emit('login', uid);
+		});
+		// 后端推送来消息时
+		socket.on('new_msg', function(msg){
+			var returnmsg = replace_em(msg.content);
+			returnmsg = '<div class="chat-msg">'
+						+'<div class="time">'+msg.datetime+'</div>'
+						+'<div class="msg left clear">'
+							+'<div class="nick-img">'
+								+'<img src="{$sanfanskefu['fansavatar']}" />'
+							+'</div>'
+							+'<div class="nick-text">'
+								+'<div class="txt-con">'+returnmsg+'</div>'+msg.wwwddd
+							+'</div>'
+						+'</div>'
+					+'</div>';
+			$('#messagelist .main').append(returnmsg);
+			$(".chat-content").animate({scrollTop:$('.main').height()},500);
+		});
+
+		$("body").on("click",".sssbbb", function() {
+			var myid = $(this).attr('data-myid');
+			$.ajax({
+				url:"{php echo $this->createMobileUrl('getsanchatbigimg')}",
+				data:{
+					fkid:{$sanfkid},
+					fkid2:{$sanfkid2},
+					myid:myid,
+				},
+				dataType:'json',
+				type:'post',        
+				success:function(data){
+					if(data.error == 0){
+						var imglistjson = data.message.split(",");
+						var pb = $.photoBrowser({
+							items:imglistjson,
+							initIndex:data.index,
+						});
+						pb.open();  //打开
+					}
+				},
+			});
+		});
+		
+		$(".qqface").click(function(){
+			$(".showmore").addClass('hide');
+			if($(".swiper-container-face").hasClass('hide')){
+				$(".swiper-container-face").removeClass('hide');
+				var chatContentHeight=windowHeight-(deviceWidth / 7.5)*4.6;
+			}else{
+				$(".swiper-container-face").addClass('hide');
+				var chatContentHeight=windowHeight-(deviceWidth / 7.5)*1;
+				
+			}
+			$(".chat-content").css({"height":chatContentHeight}).animate({scrollTop:$(".main").height()},300);
+			$("body").animate({scrollTop:chatContentHeight},300);
+		});
+		
+		$(".swiper-container-face img").click(function(){
+			$("#chatcontent").val($("#chatcontent").val()+$(this).attr("data-emstr"));
+		});
+		
+		$('.jia').click(function(){
+			$(".swiper-container-face").addClass('hide');
+			if($('.showmore').hasClass('hide')){
+				$('.showmore').removeClass('hide');
+				var chatContentHeight=windowHeight-deviceWidth / 7.5*4.6;
+			}else{
+				$('.showmore').addClass('hide');
+				var chatContentHeight=windowHeight-deviceWidth / 7.5*1;
+			}
+			$(".chat-content").css({"height":chatContentHeight}).animate({scrollTop:$(".main").height()},300);
+			$("body").animate({scrollTop:chatContentHeight},300);
+		});
+		
+		//点击发送按钮
+        $(".send").on("click",function(){
+			addchat($("#chatcontent").val(),1,0);
+        });
+
+		//录音按钮
+        $(".audio").on("click",function(){
+            $(".audio,.input").addClass("hide");
+			$(".jianpan,.saymsg").removeClass("hide");
+        });
+		
+		//键盘
+        $(".jianpan").on("click",function(){
+            $(".audio,.input").removeClass("hide");
+			$(".jianpan,.saymsg").addClass("hide");
+        });
+    });
+	
+	shuaxin();
+	setInterval("shuaxin()",3000);
+	function shuaxin(){
+		$.ajax({   
+			 url:"{php echo $this->createMobileUrl('sanchat',array('op'=>'seetime'))}", 			 
+			 type:'post', 
+			 data:{
+				fkid:{$sanfanskefu['id']},
+			 },
+			 dataType:'json',
+			 success:function(data){   
+			 }
+		});
+	}
+		
+	//发送消息到数据库
+	function addchat(content,type,yuyintime){
+		if(cansend == 1){
+			cansend = 0;
+			$.ajax({   
+				 url:"{php echo $this->createMobileUrl('sanchat',array('op'=>'addchat'))}", 
+				 type:'post', 
+				 data:{
+					toopenid:$('#toopenid').val(),
+					content:content,
+					qudao:'{$qudao}',
+					goodsid:{$goodsid},
+					type:type,
+					yuyintime:yuyintime,
+				 },
+				 dataType:'json',
+				 success:function(data){   
+					if(data.error == 0){
+						var returnmsg = replace_em(data.content);
+						returnmsg = '<div class="chat-msg">'
+										+'<div class="time">'+data.datetime+'</div>'
+										+'<div class="msg right clear">'
+											+'<div class="nick-img">'
+												+'<img src="{$sanfanskefu['kefuavatar']}" />'
+											+'</div>'
+											+'<div class="nick-text">'
+												+'<div class="txt-con">'+returnmsg+'</div>'+data.yuyincon
+											+'</div>'
+										+'</div>'
+									+'</div>';
+						$('#messagelist .main').append(returnmsg);
+						$(".chat-content").animate({scrollTop:$('.main').height()},500);
+						$('#chatcontent').val("");
+						$.ajax({   
+							url:sendurl,   
+							type:'get', 
+							data:{
+								content:content,
+								msgtype:type,
+								yuyintime:yuyintime,
+								insertchatid:data.insertchatid,
+								sanchat:1,
+							},
+							dataType:'jsonp',
+							success:function(data){ 
+							}
+						});	
+					}else{
+						$.alert(data.msg);
+					}
+					cansend = 1;
+				 }
+			});
+		}
+	}
+	
+	//查看QQ表情结果
+	function replace_em(str){
+		str = str.replace(/\[em_([0-9]*)\]/g,'<img src="{MD_ROOT}/static/arclist/$1.gif" style="width:0.5rem;" border="0" />');
+		return str;
+	}
+	function domInit(){
+        var chatContentHeight=windowHeight-deviceWidth / 7.5*1;
+        $(".chat-content").css({"height":chatContentHeight}).animate({scrollTop:$(".main").height()},300);
+		$(".chat-input").attr("style","");
+		$('.txt-con').each(function(){
+			$(this).html(replace_em($(this).html()));
+		});
+		$(".showmore").removeClass('hide');
+    }
+		
+	function playvoice(serverid,obj){
+		wx.downloadVoice({
+			serverId: serverid,
+			success: function (res) {
+				wx.playVoice({
+					localId: res.localId, // 需要播放的音频的本地ID，由stopRecord接口获得
+				});
+				
+				$.ajax({   
+					url:"{php echo $this->createMobileUrl('sanchat',array('op'=>'shuaxinyuyin'))}",   
+					type:'post', 
+					data:{
+						content:serverid,
+					},
+					dataType:'json',
+					success:function(data){ 
+						if(data.error == 0){
+							obj.remove();
+						}
+					}
+				});
+			}
+		});
+	}
+</script>
+<script type="text/javascript">
+var images = {
+	localIds: [],
+};
+var voice = {
+	localId: '',
+	serverId: ''
+};
+$(function(){
+	//按下录音假设全局变量已经在外部定义
+	$(".saybutton").on("touchstart",function(event){
+		event.preventDefault();
+		$(".saybutton").text("松开  结束");
+		START = new Date().getTime();
+		recordTimer = setTimeout(function(){
+			wx.startRecord({
+				success: function(){
+					localStorage.rainAllowRecord = 'true';
+					$(".fx-audio").removeClass('hide');
+					var num=59;
+					$(".audio-start").html('<span class="iconfont">&#xe643;</span>');
+					name = setInterval(function() {
+						if(num <= 10 && num > 0){
+							$(".audio-start").html(num);// 你倒计时显示的地方元素
+						}
+						num--;
+						if(num==0){          
+							clearInterval(name);
+							END = new Date().getTime();
+							wx.stopRecord({
+								success: function (res) {
+									voice.localId = res.localId;
+									$('.fx-audio').addClass("hide");
+									var yuyintime = (END - START);
+									uploadVoice(yuyintime);
+								},
+								fail: function (res) {
+									$.toast(JSON.stringify(res), "forbidden");
+								}
+							});
+							$(".saybutton").text('按住  说话');
+						}
+					}, 1000);
+				},
+				cancel: function () {
+					$.toast("您拒绝授权录音", "cancel");
+				}
+			});
+		},300);
+	});
+
+	//松手结束录音
+	$(".saybutton").on('touchend', function(event){
+		event.preventDefault();
+		END = new Date().getTime();
+		$(".saybutton").text('按住  说话');
+		$('.fx-audio').addClass("hide");
+		if((END - START) < 1500){
+			END = 0;
+			START = 0;
+			//小于300ms，不录音
+			$.toast("录音时间太短", "forbidden");
+			clearTimeout(recordTimer);
+			wx.stopRecord();
+		}else{
+			wx.stopRecord({
+				success: function (res) {
+					voice.localId = res.localId;
+					var yuyintime = (END - START);
+					uploadVoice(yuyintime);
+			    },
+			    fail: function (res) {
+					$.toast(JSON.stringify(res), "forbidden");
+			    }
+			});
+		}
+	});
+	//上传录音
+	function uploadVoice(yuyintime){
+		//调用微信的上传录音接口把本地录音先上传到微信的服务器
+		//不过，微信只保留3天，而我们需要长期保存，我们需要把资源从微信服务器下载到自己的服务器
+		wx.uploadVoice({
+			localId: voice.localId, // 需要上传的音频的本地ID，由stopRecord接口获得
+			isShowProgressTips: 1, // 默认为1，显示进度提示
+			success: function (res) {
+				//把录音在微信服务器上的id（res.serverId）发送到自己的服务器供下载。
+				addchat(res.serverId,3,yuyintime);
+			}
+		});
+	}
+	$('.camera').click(function(){
+		wx.chooseImage({
+			count: 3, // 最多选3张
+			sizeType: ['compressed'], // 可以指定是原图还是压缩图，默认二者都有
+			sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+			success: function(res) {
+				images.localIds = res.localIds; // 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片
+				var i = 0; var length = images.localIds.length;
+				var upload = function() {
+					wx.uploadImage({
+						localId:'' + images.localIds[i],
+						isShowProgressTips: 1,
+						success: function(res) {
+							var serverId = res.serverId;
+							$.ajax({   
+								 url:"{php echo $this->createMobileUrl('getmedia')}",   
+								 type:'post', 
+								 data:{
+									media_id:serverId,
+								 },
+								 dataType:'json',
+								 success:function(data){   
+									if (data.error == 1) {
+										$.alert(data.message);
+									} else {
+										addchat(data.imgurl,2,0);
+									}  
+								 }
+							});
+							//如果还有照片，继续上传
+							i++;
+							if (i < length) {
+								upload();
+							}
+						}
+					});                    
+				};
+				upload();
+			}
+		});
+	});
+})
+</script>
+<script type="text/javascript">
+wx.ready(function () {
+	wx.hideOptionMenu();
+	sharedata = {
+		title: '{$setting["sharetitle"]}',
+		desc: '{$setting["sharedes"]}',
+		link: '{$setting["shareurl"]}',
+		imgUrl: '{php echo tomedia($setting["sharethumb"]);}',
+		trigger: function (res) {
+			//$.alert('用户点击发送给朋友');
+		},
+		success: function (res) {
+			//$.alert('已分享');
+		},
+		cancel: function (res) {
+			//$.alert('已取消');
+		},
+		fail: function (res) {
+			$.alert("分享失败");
+		}
+	};
+	wx.onMenuShareAppMessage(sharedata);
+	wx.onMenuShareTimeline(sharedata);
+	wx.onMenuShareQQ(sharedata);
+	wx.onMenuShareWeibo(sharedata);
+	//注册微信播放录音结束事件【一定要放在wx.ready函数内】
+	wx.onVoicePlayEnd({
+		success: function (res) {
+
+		}
+	});
+	wx.onVoiceRecordEnd({
+		complete: function (res) {
+			voice.localId = res.localId;
+			$.alert('录音时间已超过一分钟');
+		}
+	});
+});
+</script>
+</html>

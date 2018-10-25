@@ -1,0 +1,1 @@
+<?php if(!defined('IN_IA')) {exit('Access Denied');}if(!defined('rr_vv3_VERSION')) {define('rr_vv3_VERSION', '3.1.3');}if(!defined('rr_vv3_RELEASE')) {define('rr_vv3_RELEASE', '20171116058612615');}

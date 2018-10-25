@@ -1,0 +1,179 @@
+2018-07-19 11:25:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J6iGH4GLKXxFlQVgq9pIp4]]></FromUserName>
+<CreateTime>1531970737</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-19 11:25:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J6iGH4GLKXxFlQVgq9pIp4',
+    'createtime' => '1531970737',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1J6iGH4GLKXxFlQVgq9pIp4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531970737',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-19 11:25:39 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1J6iGH4GLKXxFlQVgq9pIp4 ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-19 14:16:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PsaqGkNdqYyqJMx6__I-4I]]></FromUserName>
+<CreateTime>1531981001</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[微信名tangyang7206]]></Content>
+<MsgId>6579808297944360090</MsgId>
+</xml>
+
+2018-07-19 14:16:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'createtime' => '1531981001',
+    'msgtype' => 'text',
+    'content' => '微信名tangyang7206',
+    'msgid' => '6579808297944360090',
+    'from' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531981001',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-19 14:16:42 response :
+------------
+
+2018-07-19 14:16:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PsaqGkNdqYyqJMx6__I-4I]]></FromUserName>
+<CreateTime>1531981009</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/WNA4vjqiaIz88FXbVANWxwCXibPXDBoBmD4JXBhgQ3Hzvhn2ZQIC9sDAZVM9AYyFRRzh3RqZ45vTqzriadRXiaoCaw/0]]></PicUrl>
+<MsgId>6579808332304098475</MsgId>
+<MediaId><![CDATA[j29KiwFzvd6X282jzxaexDv-ozVirgF0eGnMSUqu-HXgXTk7z5QUKop1BpDvB_Tl]]></MediaId>
+</xml>
+
+2018-07-19 14:16:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'createtime' => '1531981009',
+    'msgtype' => 'image',
+    'picurl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/WNA4vjqiaIz88FXbVANWxwCXibPXDBoBmD4JXBhgQ3Hzvhn2ZQIC9sDAZVM9AYyFRRzh3RqZ45vTqzriadRXiaoCaw/0',
+    'msgid' => '6579808332304098475',
+    'mediaid' => 'j29KiwFzvd6X282jzxaexDv-ozVirgF0eGnMSUqu-HXgXTk7z5QUKop1BpDvB_Tl',
+    'from' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531981009',
+    'type' => 'image',
+    'event' => NULL,
+    'url' => 'http://mmbiz.qpic.cn/mmbiz_jpg/WNA4vjqiaIz88FXbVANWxwCXibPXDBoBmD4JXBhgQ3Hzvhn2ZQIC9sDAZVM9AYyFRRzh3RqZ45vTqzriadRXiaoCaw/0',
+  ),
+)
+
+2018-07-19 14:16:51 response :
+------------
+
+2018-07-19 14:17:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PsaqGkNdqYyqJMx6__I-4I]]></FromUserName>
+<CreateTime>1531981033</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[试了很多次，一直在转]]></Content>
+<MsgId>6579808435383313630</MsgId>
+</xml>
+
+2018-07-19 14:17:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'createtime' => '1531981033',
+    'msgtype' => 'text',
+    'content' => '试了很多次，一直在转',
+    'msgid' => '6579808435383313630',
+    'from' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531981033',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-19 14:17:13 response :
+------------
+

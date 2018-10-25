@@ -1,0 +1,39 @@
+2018-02-19 16:08:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew_EhN75bPG_VdEPFkbwb_6U]]></FromUserName>
+<CreateTime>1519027687</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgew9XkkbkwPgTsmLu8YQw8Ink]]></CardId>
+<UserCardCode><![CDATA[707929901710]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-02-19 16:08:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew_EhN75bPG_VdEPFkbwb_6U',
+    'createtime' => '1519027687',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgew9XkkbkwPgTsmLu8YQw8Ink',
+    'usercardcode' => '707929901710',
+    'outerstr' => '',
+    'from' => 'o3hgew_EhN75bPG_VdEPFkbwb_6U',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1519027687',
+    'type' => 'event',
+  ),
+)
+
+2018-02-19 16:08:08 response :
+------------
+

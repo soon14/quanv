@@ -1,0 +1,491 @@
+2018-05-22 10:02:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwfPFfa2DS9Iw8vg-rsHGzc]]></FromUserName>
+<CreateTime>1526954568</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[379380286276]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-05-22 10:02:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwfPFfa2DS9Iw8vg-rsHGzc',
+    'createtime' => '1526954568',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '379380286276',
+    'outerstr' => '',
+    'from' => 'o3hgewwfPFfa2DS9Iw8vg-rsHGzc',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1526954568',
+    'type' => 'event',
+  ),
+)
+
+2018-05-22 10:02:49 response :
+------------
+
+2018-05-22 10:02:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwfPFfa2DS9Iw8vg-rsHGzc]]></FromUserName>
+<CreateTime>1526954577</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[379380286276]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-05-22 10:02:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwfPFfa2DS9Iw8vg-rsHGzc',
+    'createtime' => '1526954577',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '379380286276',
+    'outerstr' => '',
+    'from' => 'o3hgewwfPFfa2DS9Iw8vg-rsHGzc',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1526954577',
+    'type' => 'event',
+  ),
+)
+
+2018-05-22 10:02:58 response :
+------------
+
+2018-05-22 12:20:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A8s2qMp86Z6rsFmQJvN6z0]]></FromUserName>
+<CreateTime>1526962814</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我还等着老师给我回复呢]]></Content>
+<MsgId>6558255348887055384</MsgId>
+</xml>
+
+2018-05-22 12:20:16 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'createtime' => '1526962814',
+    'msgtype' => 'text',
+    'content' => '我还等着老师给我回复呢',
+    'msgid' => '6558255348887055384',
+    'from' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526962814',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-22 12:20:16 response :
+------------
+
+2018-05-22 12:20:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A8s2qMp86Z6rsFmQJvN6z0]]></FromUserName>
+<CreateTime>1526962821</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好心慌呀]]></Content>
+<MsgId>6558255378951826464</MsgId>
+</xml>
+
+2018-05-22 12:20:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'createtime' => '1526962821',
+    'msgtype' => 'text',
+    'content' => '好心慌呀',
+    'msgid' => '6558255378951826464',
+    'from' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526962821',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-22 12:20:22 response :
+------------
+
+2018-05-22 15:41:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1HEol1BclzrSBh0PECCMAuA]]></FromUserName>
+<CreateTime>1526974863</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::D]]></Content>
+<MsgId>6558307098948025271</MsgId>
+</xml>
+
+2018-05-22 15:41:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1HEol1BclzrSBh0PECCMAuA',
+    'createtime' => '1526974863',
+    'msgtype' => 'text',
+    'content' => '/::D',
+    'msgid' => '6558307098948025271',
+    'from' => 'o4s6w1HEol1BclzrSBh0PECCMAuA',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526974863',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-22 15:41:04 response :
+------------
+
+2018-05-22 16:55:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Mapou7e-VYLccRnKBd8MmY]]></FromUserName>
+<CreateTime>1526979349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-22 16:55:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Mapou7e-VYLccRnKBd8MmY',
+    'createtime' => '1526979349',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1Mapou7e-VYLccRnKBd8MmY',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526979349',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-22 16:55:51 response :
+------------
+
+2018-05-22 16:56:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Mapou7e-VYLccRnKBd8MmY]]></FromUserName>
+<CreateTime>1526979370</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6558326456365636725</MsgId>
+</xml>
+
+2018-05-22 16:56:11 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Mapou7e-VYLccRnKBd8MmY',
+    'createtime' => '1526979370',
+    'msgtype' => 'text',
+    'content' => '你好',
+    'msgid' => '6558326456365636725',
+    'from' => 'o4s6w1Mapou7e-VYLccRnKBd8MmY',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526979370',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-22 16:56:11 response :
+------------
+
+2018-05-22 18:10:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1FLYJy5E7fxOlN-rw5JbM1U]]></FromUserName>
+<CreateTime>1526983818</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-22 20:09:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A8s2qMp86Z6rsFmQJvN6z0]]></FromUserName>
+<CreateTime>1526990978</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[杜老师出国了，我需要咨询杜老师我妈妈做手术的事，但是现在不能咨询了。]]></Content>
+<MsgId>6558376312346033268</MsgId>
+</xml>
+
+2018-05-22 20:09:39 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'createtime' => '1526990978',
+    'msgtype' => 'text',
+    'content' => '杜老师出国了，我需要咨询杜老师我妈妈做手术的事，但是现在不能咨询了。',
+    'msgid' => '6558376312346033268',
+    'from' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526990978',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-22 20:09:39 response :
+------------
+
+2018-05-22 20:09:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A8s2qMp86Z6rsFmQJvN6z0]]></FromUserName>
+<CreateTime>1526990997</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你们系统调试好了，之前的回复信息还在吗？]]></Content>
+<MsgId>6558376393950412041</MsgId>
+</xml>
+
+2018-05-22 20:09:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'createtime' => '1526990997',
+    'msgtype' => 'text',
+    'content' => '你们系统调试好了，之前的回复信息还在吗？',
+    'msgid' => '6558376393950412041',
+    'from' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526990997',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-22 20:09:58 response :
+------------
+
+2018-05-22 20:09:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A8s2qMp86Z6rsFmQJvN6z0]]></FromUserName>
+<CreateTime>1526990998</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[谢谢]]></Content>
+<MsgId>6558376398245379341</MsgId>
+</xml>
+
+2018-05-22 20:09:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'createtime' => '1526990998',
+    'msgtype' => 'text',
+    'content' => '谢谢',
+    'msgid' => '6558376398245379341',
+    'from' => 'o4s6w1A8s2qMp86Z6rsFmQJvN6z0',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526990998',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-22 20:09:59 response :
+------------
+
+2018-05-22 21:15:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J1MbzxfEfnOMlcoExjaowY]]></FromUserName>
+<CreateTime>1526994945</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-22 21:16:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J1MbzxfEfnOMlcoExjaowY]]></FromUserName>
+<CreateTime>1526994961</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-22 21:16:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J1MbzxfEfnOMlcoExjaowY',
+    'createtime' => '1526994961',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1J1MbzxfEfnOMlcoExjaowY',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526994961',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-22 21:16:02 response :
+------------
+
+2018-05-22 21:16:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J1MbzxfEfnOMlcoExjaowY]]></FromUserName>
+<CreateTime>1526994963</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-22 21:16:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J1MbzxfEfnOMlcoExjaowY',
+    'createtime' => '1526994963',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1J1MbzxfEfnOMlcoExjaowY',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526994963',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-22 21:16:04 response :
+------------
+
+2018-05-22 23:08:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwKgJdrhAaoEWBoagxw10gg]]></FromUserName>
+<CreateTime>1527001679</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html style="background:#f5f5f5;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>{$setting['title']}</title>
+    <link rel="stylesheet" href="{MD_ROOT}static/css/reset.css"/>
+    <link rel="stylesheet" href="{MD_ROOT}static/css/home.css?v=20170927"/>
+	<link rel="stylesheet" href="{MD_ROOT}static/iconfont/iconfont.css"/>
+	<link rel="stylesheet" href="{MD_ROOT}static/newui/css/swiper-3.3.1.min.css"/>
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+    </script>
+	{php echo register_jssdk(false);}
+	<style>
+	#header{background:{$setting['temcolor']};}
+	#footer .now span.icon,#footer .now span.text,.main .item .text .name{color:{$setting['temcolor']};}
+	.textellipsis1{
+		overflow:hidden;
+		text-overflow:ellipsis;
+		-o-text-overflow:ellipsis;
+		-webkit-text-overflow:ellipsis;
+		-moz-text-overflow:ellipsis;
+		white-space:nowrap;
+	}
+	.main .item{width:100%;}
+	.main .item .img{margin-left:0.2rem;}
+	.main .item .to{float:right;margin-right:0.2rem;}
+	.main .item .text{width:5rem;}
+	.main .item .text .name{width:3rem;}
+	</style>
+</head>
+<body style="padding-bottom:1.4rem;padding-top:0;">
+
+<!--head-->
+<!--
+<div id="header">
+	{if $referer}
+	<div onclick="history.go(-1);" class="iconfont back">&#xe612;</div>
+	{else}
+	<div class="iconfont back"></div>
+	{/if}
+    <div class="title">{$setting['title']}</div>
+	<div class="other"></div>
+</div>
+-->
+{if !empty($advlist)}
+<!-- Swiper -->
+<div class="swiper-container">
+	<div class="swiper-wrapper" style="text-align:center;">
+		{loop $advlist $arow}
+		<div class="swiper-slide">
+			<a href="{$arow['link']}"><img src="{php echo tomedia($arow['thumb']);}" style="max-width:100%;" /></a>
+		</div>
+		{/loop}
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+</div>
+{/if}
+<div class="main">
+	{if $cservicelist || $cservicegrouplist}
+		{loop $cservicegrouplist $row}
+			<a href="{php echo $this->createMobileUrl('groupchat',array('id'=>$row['id']))}">
+			<div class="item">
+				<div class="img"><img src="{php echo tomedia($row['thumb'])}"></div>
+				<div class="text">
+					<div class="name textellipsis1">{$row['name']}</div>
+					<div class="zu">{$row['typename']}</div>
+				</div>
+				<div class="iconfont to">&#xe642;</div>
+			</div>
+			</a>
+		{/loop}
+		{loop $cservicelist $row}
+			{if $row['ctype'] == 1}
+			<a href="{php echo $this->createMobileUrl('chat',array('toopenid'=>$row['content']))}">
+			{/if}
+			{if $row['ctype'] == 2}
+			<a href="http://wpa.qq.com/msgrd?v=3&uin={$row['content']}&site=qq&menu=yes">
+			{/if}
+			{if $row['ctype'] == 3}
+			<a href="tel:{$row['content']}">
+			{/if}
+			{if $row['ctype'] == 4}
+			<a href="tel:{$row['content']}">
+			{/if}
+			<div class="item ccc">
+				<div class="img"><img src="{php echo tomedia($row['thumb'])}"></div>
+				
+				<div class="text">
+					<div class="name textellipsis1">{$row['name']}</div>
+					<div class="zu textellipsis1">{$row['typename']}</div>
+				</div>
+				<div class="iconfont to">&#xe642;</div>
+			</div>
+			</a>
+		{/loop}
+	{else}
+		<div style="margin-top:2rem;text-align:center;">
+			<div class="iconfont" style="font-size:0.75rem;color:#999;">&#xe66d;</div>
+			<div style="font-size:0.35rem;color:#999;margin-top:0.2rem;">暂没有医生哦</div>
+		</div>
+	{/if}
+</div>
+
+<div class="copyright">{php echo nl2br($setting['copyright'])}</div>
+
+<!--footer-->
+<div id="footer">
+	<div class="footer-item now" {if $setting['isgroupon'] == 0}style="width:3.75rem;"{/if}>
+		<a href="{php echo $this->createMobileUrl('chosekefu');}">
+		<span class="icon iconfont">&#xe807;</span>
+		<span class="text">{if $setting['footertext1']}{$setting['footertext1']}{else}选择医生{/if}</span>
+		</a>
+	</div>
+	{if $setting['isgroupon'] == 1}
+	<div class="footer-item">
+		<a href="{php echo $this->createMobileUrl('groupcenter');}">
+		<span class="icon iconfont">&#xe933;</span>
+		<span class="text">{if $setting['footertext2']}{$setting['footertext2']}{else}群聊中心{/if}</span>
+		</a>
+	</div>
+	{/if}
+
+	<div class="footer-item" {if $setting['isgroupon'] == 0}style="width:3.75rem;"{/if}>
+		<a href="{php echo $this->createMobileUrl('mychat');}">
+		<span class="icon iconfont">&#xe66d;</span>
+		<span class="text">{if $setting['footertext4']}{$setting['footertext4']}{else}消息管理{/if}</span>
+		{if $notread > 0}<strong class="badge" {if $setting['isgroupon'] == 0}style="margin-left:1.9rem;"{/if}>{$notread}</strong>{/if}
+		</a>
+	</div>
+</div>
+<script src="{MD_ROOT}static/newui/js/jquery-3.1.1.min.js"></script>
+<script src="{MD_ROOT}static/newui/js/swiper-3.3.1.jquery.min.js"></script>
+<script type="text/javascript">
+var mySwiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	spaceBetween: 0,
+	centeredSlides: true,
+	autoplay: 3000,
+	loop:true,
+	autoplayDisableOnInteraction: false
+})
+$(function(){
+
+})
+wx.ready(function () {
+	sharedata = {
+		title: '{$setting["sharetitle"]}',
+		desc: '{$setting["sharedes"]}',
+		link: '{$setting["shareurl"]}',
+		imgUrl: '{php echo tomedia($setting["sharethumb"]);}',
+		trigger: function (res) {
+			//alert('用户点击发送给朋友');
+		},
+		success: function (res) {
+			//alert('已分享');
+		},
+		cancel: function (res) {
+			//alert('已取消');
+		},
+		fail: function (res) {
+			alert("分享失败");
+		}
+	};
+	wx.onMenuShareAppMessage(sharedata);
+	wx.onMenuShareTimeline(sharedata);
+	wx.onMenuShareQQ(sharedata);
+	wx.onMenuShareWeibo(sharedata);
+});
+</script>
+</body>
+</html>

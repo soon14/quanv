@@ -1,0 +1,1243 @@
+2018-03-03 13:17:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew7T38EJ4OO07w1wyZh21Sfg]]></FromUserName>
+<CreateTime>1520054263</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 13:17:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'createtime' => '1520054263',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054263',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 13:17:45 response :
+------------
+
+2018-03-03 13:17:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew7T38EJ4OO07w1wyZh21Sfg]]></FromUserName>
+<CreateTime>1520054265</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.941372</Latitude>
+<Longitude>113.376709</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-03-03 13:17:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'createtime' => '1520054265',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.941372',
+    'longitude' => '113.376709',
+    'precision' => '30.000000',
+    'from' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054265',
+    'type' => 'trace',
+    'location_x' => '22.941372',
+    'location_y' => '113.376709',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 13:17:46 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 13:18:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew3JdKitDwqktoxVUNcUFl-8]]></FromUserName>
+<CreateTime>1520054302</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 13:18:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew3JdKitDwqktoxVUNcUFl-8',
+    'createtime' => '1520054302',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew3JdKitDwqktoxVUNcUFl-8',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054302',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 13:18:23 response :
+------------
+
+2018-03-03 13:18:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0s83orJcuN3IAa6LtLgmic]]></FromUserName>
+<CreateTime>1520054332</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 13:18:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'createtime' => '1520054332',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054332',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 13:18:53 response :
+------------
+
+2018-03-03 13:18:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0s83orJcuN3IAa6LtLgmic]]></FromUserName>
+<CreateTime>1520054334</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.941488</Latitude>
+<Longitude>113.376472</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-03-03 13:18:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'createtime' => '1520054334',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.941488',
+    'longitude' => '113.376472',
+    'precision' => '65.000000',
+    'from' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054334',
+    'type' => 'trace',
+    'location_x' => '22.941488',
+    'location_y' => '113.376472',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 13:18:55 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 13:18:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0s83orJcuN3IAa6LtLgmic]]></FromUserName>
+<CreateTime>1520054337</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang]]></EventKey>
+<MenuId>424736618</MenuId>
+</xml>
+
+2018-03-03 13:18:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'createtime' => '1520054337',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'menuid' => '424736618',
+    'from' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054337',
+    'type' => 'text',
+    'content' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-03-03 13:18:58 response :
+------------
+
+2018-03-03 13:19:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0s83orJcuN3IAa6LtLgmic]]></FromUserName>
+<CreateTime>1520054342</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang]]></EventKey>
+<MenuId>424736618</MenuId>
+</xml>
+
+2018-03-03 13:19:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'createtime' => '1520054342',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'menuid' => '424736618',
+    'from' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054342',
+    'type' => 'text',
+    'content' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-03-03 13:19:03 response :
+------------
+
+2018-03-03 13:19:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0s83orJcuN3IAa6LtLgmic]]></FromUserName>
+<CreateTime>1520054345</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[会员卡]]></EventKey>
+</xml>
+
+2018-03-03 13:19:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'createtime' => '1520054345',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '会员卡',
+    'from' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054345',
+    'type' => 'text',
+    'content' => '会员卡',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+)
+
+2018-03-03 13:19:06 response :
+------------
+
+2018-03-03 13:27:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew-t-kdbvVd15aLvL8s1ES4E]]></FromUserName>
+<CreateTime>1520054828</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 13:27:11 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew-t-kdbvVd15aLvL8s1ES4E',
+    'createtime' => '1520054828',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew-t-kdbvVd15aLvL8s1ES4E',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054828',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 13:27:11 response :
+------------
+
+2018-03-03 13:27:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0fpTcEfvD5jCrKiY4nDJdA]]></FromUserName>
+<CreateTime>1520054858</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 13:27:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'createtime' => '1520054858',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054858',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 13:27:45 response :
+------------
+
+2018-03-03 13:27:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0fpTcEfvD5jCrKiY4nDJdA]]></FromUserName>
+<CreateTime>1520054858</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 13:27:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'createtime' => '1520054858',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054858',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 13:27:50 response :
+------------
+
+2018-03-03 13:27:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew9ySLZNfnWfXQMEiJvFDfM0]]></FromUserName>
+<CreateTime>1520054859</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 13:27:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew9ySLZNfnWfXQMEiJvFDfM0',
+    'createtime' => '1520054859',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew9ySLZNfnWfXQMEiJvFDfM0',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054859',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 13:27:51 response :
+------------
+
+2018-03-03 13:27:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0fpTcEfvD5jCrKiY4nDJdA]]></FromUserName>
+<CreateTime>1520054867</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[会员卡]]></EventKey>
+</xml>
+
+2018-03-03 13:27:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'createtime' => '1520054867',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '会员卡',
+    'from' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054867',
+    'type' => 'text',
+    'content' => '会员卡',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+)
+
+2018-03-03 13:27:54 response :
+------------
+
+2018-03-03 13:28:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0fpTcEfvD5jCrKiY4nDJdA]]></FromUserName>
+<CreateTime>1520054867</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.941383</Latitude>
+<Longitude>113.376656</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-03-03 13:28:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'createtime' => '1520054867',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.941383',
+    'longitude' => '113.376656',
+    'precision' => '30.000000',
+    'from' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054867',
+    'type' => 'trace',
+    'location_x' => '22.941383',
+    'location_y' => '113.376656',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 13:28:01 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 13:28:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0fpTcEfvD5jCrKiY4nDJdA]]></FromUserName>
+<CreateTime>1520054882</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang]]></EventKey>
+<MenuId>424736618</MenuId>
+</xml>
+
+2018-03-03 13:28:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'createtime' => '1520054882',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'menuid' => '424736618',
+    'from' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054882',
+    'type' => 'text',
+    'content' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-03-03 13:28:05 response :
+------------
+
+2018-03-03 13:28:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew9ySLZNfnWfXQMEiJvFDfM0]]></FromUserName>
+<CreateTime>1520054881</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[会员卡]]></EventKey>
+</xml>
+
+2018-03-03 13:28:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew9ySLZNfnWfXQMEiJvFDfM0',
+    'createtime' => '1520054881',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '会员卡',
+    'from' => 'o3hgew9ySLZNfnWfXQMEiJvFDfM0',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054881',
+    'type' => 'text',
+    'content' => '会员卡',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+)
+
+2018-03-03 13:28:08 response :
+------------
+
+2018-03-03 13:28:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0fpTcEfvD5jCrKiY4nDJdA]]></FromUserName>
+<CreateTime>1520054887</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.941360</Latitude>
+<Longitude>113.376640</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-03-03 13:28:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'createtime' => '1520054887',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.941360',
+    'longitude' => '113.376640',
+    'precision' => '30.000000',
+    'from' => 'o3hgew0fpTcEfvD5jCrKiY4nDJdA',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054887',
+    'type' => 'trace',
+    'location_x' => '22.941360',
+    'location_y' => '113.376640',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 13:28:10 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 13:29:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew9ySLZNfnWfXQMEiJvFDfM0]]></FromUserName>
+<CreateTime>1520054930</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[会员卡]]></EventKey>
+</xml>
+
+2018-03-03 13:29:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew9ySLZNfnWfXQMEiJvFDfM0',
+    'createtime' => '1520054930',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '会员卡',
+    'from' => 'o3hgew9ySLZNfnWfXQMEiJvFDfM0',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520054930',
+    'type' => 'text',
+    'content' => '会员卡',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+)
+
+2018-03-03 13:29:07 response :
+------------
+
+2018-03-03 13:44:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew2vmlu6_DvBVLKoFgdflDp8]]></FromUserName>
+<CreateTime>1520055848</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang]]></EventKey>
+<MenuId>424736618</MenuId>
+</xml>
+
+2018-03-03 13:44:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew2vmlu6_DvBVLKoFgdflDp8',
+    'createtime' => '1520055848',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'menuid' => '424736618',
+    'from' => 'o3hgew2vmlu6_DvBVLKoFgdflDp8',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520055848',
+    'type' => 'text',
+    'content' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-03-03 13:44:22 response :
+------------
+
+2018-03-03 14:08:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew7T38EJ4OO07w1wyZh21Sfg]]></FromUserName>
+<CreateTime>1520057329</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.941347</Latitude>
+<Longitude>113.376694</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-03-03 14:08:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'createtime' => '1520057329',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.941347',
+    'longitude' => '113.376694',
+    'precision' => '30.000000',
+    'from' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520057329',
+    'type' => 'trace',
+    'location_x' => '22.941347',
+    'location_y' => '113.376694',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 14:08:50 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 14:08:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew7T38EJ4OO07w1wyZh21Sfg]]></FromUserName>
+<CreateTime>1520057331</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[会员卡]]></EventKey>
+</xml>
+
+2018-03-03 14:08:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'createtime' => '1520057331',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '会员卡',
+    'from' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520057331',
+    'type' => 'text',
+    'content' => '会员卡',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+)
+
+2018-03-03 14:08:52 response :
+------------
+
+2018-03-03 14:08:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew7T38EJ4OO07w1wyZh21Sfg]]></FromUserName>
+<CreateTime>1520057335</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang]]></EventKey>
+<MenuId>424736618</MenuId>
+</xml>
+
+2018-03-03 14:08:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'createtime' => '1520057335',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'menuid' => '424736618',
+    'from' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520057335',
+    'type' => 'text',
+    'content' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-03-03 14:08:56 response :
+------------
+
+2018-03-03 14:09:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew7T38EJ4OO07w1wyZh21Sfg]]></FromUserName>
+<CreateTime>1520057340</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.941347</Latitude>
+<Longitude>113.376694</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-03-03 14:09:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'createtime' => '1520057340',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.941347',
+    'longitude' => '113.376694',
+    'precision' => '30.000000',
+    'from' => 'o3hgew7T38EJ4OO07w1wyZh21Sfg',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520057340',
+    'type' => 'trace',
+    'location_x' => '22.941347',
+    'location_y' => '113.376694',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 14:09:01 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 15:26:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgeww7oas-v_6aGmHCVECcNph4]]></FromUserName>
+<CreateTime>1520062013</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 15:26:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgeww7oas-v_6aGmHCVECcNph4',
+    'createtime' => '1520062013',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgeww7oas-v_6aGmHCVECcNph4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520062013',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-03-03 15:26:54 response :
+------------
+
+2018-03-03 15:31:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0s83orJcuN3IAa6LtLgmic]]></FromUserName>
+<CreateTime>1520062264</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.941471</Latitude>
+<Longitude>113.376434</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-03-03 15:31:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'createtime' => '1520062264',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.941471',
+    'longitude' => '113.376434',
+    'precision' => '65.000000',
+    'from' => 'o3hgew0s83orJcuN3IAa6LtLgmic',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520062264',
+    'type' => 'trace',
+    'location_x' => '22.941471',
+    'location_y' => '113.376434',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 15:31:05 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 15:45:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew-t-kdbvVd15aLvL8s1ES4E]]></FromUserName>
+<CreateTime>1520063107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[会员卡]]></EventKey>
+</xml>
+
+2018-03-03 15:45:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew-t-kdbvVd15aLvL8s1ES4E',
+    'createtime' => '1520063107',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '会员卡',
+    'from' => 'o3hgew-t-kdbvVd15aLvL8s1ES4E',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520063107',
+    'type' => 'text',
+    'content' => '会员卡',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+)
+
+2018-03-03 15:45:08 response :
+------------
+
+2018-03-03 16:17:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew7hhXAciTaqihbS0oq8hvQc]]></FromUserName>
+<CreateTime>1520065040</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgew9XkkbkwPgTsmLu8YQw8Ink]]></CardId>
+<UserCardCode><![CDATA[000416174095]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-03-03 16:17:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew7hhXAciTaqihbS0oq8hvQc',
+    'createtime' => '1520065040',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgew9XkkbkwPgTsmLu8YQw8Ink',
+    'usercardcode' => '000416174095',
+    'outerstr' => '',
+    'from' => 'o3hgew7hhXAciTaqihbS0oq8hvQc',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520065040',
+    'type' => 'event',
+  ),
+)
+
+2018-03-03 16:17:22 response :
+------------
+
+2018-03-03 16:55:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew1qMN2IFoByWGpuDBf58QP8]]></FromUserName>
+<CreateTime>1520067304</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-03-03 17:01:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew4Tl1vd1oQ9rr06QwznSK3A]]></FromUserName>
+<CreateTime>1520067703</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgew9XkkbkwPgTsmLu8YQw8Ink]]></CardId>
+<UserCardCode><![CDATA[465296808521]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-03-03 17:01:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew4Tl1vd1oQ9rr06QwznSK3A',
+    'createtime' => '1520067703',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgew9XkkbkwPgTsmLu8YQw8Ink',
+    'usercardcode' => '465296808521',
+    'outerstr' => '',
+    'from' => 'o3hgew4Tl1vd1oQ9rr06QwznSK3A',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520067703',
+    'type' => 'event',
+  ),
+)
+
+2018-03-03 17:01:44 response :
+------------
+
+2018-03-03 17:26:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew_virhJ1JU0Atf_j4f98crk]]></FromUserName>
+<CreateTime>1520069208</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.028486</Latitude>
+<Longitude>113.736694</Longitude>
+<Precision>220.000000</Precision>
+</xml>
+
+2018-03-03 17:26:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew_virhJ1JU0Atf_j4f98crk',
+    'createtime' => '1520069208',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.028486',
+    'longitude' => '113.736694',
+    'precision' => '220.000000',
+    'from' => 'o3hgew_virhJ1JU0Atf_j4f98crk',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520069208',
+    'type' => 'trace',
+    'location_x' => '23.028486',
+    'location_y' => '113.736694',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-03-03 17:26:50 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-03-03 20:46:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0kQ8liIs1z7lSuy35OUlCo]]></FromUserName>
+<CreateTime>1520081163</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[会员卡]]></EventKey>
+</xml>
+
+2018-03-03 20:46:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0kQ8liIs1z7lSuy35OUlCo',
+    'createtime' => '1520081163',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '会员卡',
+    'from' => 'o3hgew0kQ8liIs1z7lSuy35OUlCo',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520081163',
+    'type' => 'text',
+    'content' => '会员卡',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+)
+
+2018-03-03 20:46:04 response :
+------------
+
+2018-03-03 20:46:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0kQ8liIs1z7lSuy35OUlCo]]></FromUserName>
+<CreateTime>1520081170</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang]]></EventKey>
+<MenuId>424736618</MenuId>
+</xml>
+
+2018-03-03 20:46:11 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0kQ8liIs1z7lSuy35OUlCo',
+    'createtime' => '1520081170',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'menuid' => '424736618',
+    'from' => 'o3hgew0kQ8liIs1z7lSuy35OUlCo',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1520081170',
+    'type' => 'text',
+    'content' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-03-03 20:46:11 response :
+------------
+

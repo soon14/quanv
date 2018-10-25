@@ -1,0 +1,406 @@
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">患者</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <img src='{$member['avatar']}' style='width:50px;height:50px;padding:1px;border:1px solid #ccc' />
+
+        {if strexists($member['openid'],'sns_wa_')}
+
+            <i class="icon icon-wxapp" data-toggle="tooltip" data-placement="top" data-original-title="小程序注册" style="color: #7586db;"></i>
+
+        {/if}
+
+        {if strexists($member['openid'],'wap_user_')||strexists($member['openid'],'sns_qq_')||strexists($member['openid'],'sns_wx_')}
+
+            <i class="icon icon-mobile2" data-toggle="tooltip" data-placement="top" data-original-title="{if strexists($member['openid'],'wap_user_')}手机号注册{else}APP注册{/if}" style="color: #44abf7;"></i>
+
+        {/if}
+
+        {$member['nickname']}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">OPENID</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <div class="form-control-static js-clip" data-url='{$member['openid']}'>{$member['openid']}</div>
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">性别</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <label class="radio-inline"><input type="radio" name="sex" value="1" {if $info['sex']==1}checked{/if}>男</label>
+
+        <label class="radio-inline" ><input type="radio" name="sex" value="0" {if $info['sex']==0}checked{/if}>女</label>
+
+        {else}
+
+        <div class='form-control-static'>{if $info['sex']==1}男{else}女{/if}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">婚姻</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <label class="radio-inline"><input type="radio" name="marital_status" value="0" {if $info['marital_status']==0}checked{/if}>未婚</label>
+
+        <label class="radio-inline" ><input type="radio" name="marital_status" value="1" {if $info['marital_status']==1}checked{/if}>已婚</label>
+
+        {else}
+
+        <div class='form-control-static'>{if $info['marital_status']==0}未婚{else}已婚{/if}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">是否吸烟</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <label class="radio-inline"><input type="radio" name="issmoke" value="0" {if $info['issmoke']==0}checked{/if}>无</label>
+
+        <label class="radio-inline" ><input type="radio" name="issmoke" value="1" {if $info['issmoke']==1}checked{/if}>已戒烟</label>
+
+        <label class="radio-inline" ><input type="radio" name="issmoke" value="2" {if $info['issmoke']==2}checked{/if}>偶尔吸烟</label>
+
+        <label class="radio-inline" ><input type="radio" name="issmoke" value="3" {if $info['issmoke']==3}checked{/if}>经常吸烟</label>
+
+        {else}
+
+        <div class='form-control-static'>
+            {if $info['issmoke']==0}无{/if}
+            {if $info['issmoke']==1}已戒烟{/if}
+            {if $info['issmoke']==2}偶尔吸烟{/if}
+            {if $info['issmoke']==3}经常吸烟{/if}
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">是否饮酒</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <label class="radio-inline"><input type="radio" name="isliquor" value="0" {if $info['isliquor']==0}checked{/if}>无</label>
+
+        <label class="radio-inline" ><input type="radio" name="isliquor" value="1" {if $info['isliquor']==1}checked{/if}>已戒酒</label>
+
+        <label class="radio-inline" ><input type="radio" name="isliquor" value="2" {if $info['isliquor']==2}checked{/if}>偶尔饮酒</label>
+
+        <label class="radio-inline" ><input type="radio" name="isliquor" value="3" {if $info['isliquor']==3}checked{/if}>经常饮酒</label>
+
+        {else}
+
+        <div class='form-control-static'>
+            {if $info['isliquor']==0}无{/if}
+            {if $info['isliquor']==1}已戒酒{/if}
+            {if $info['isliquor']==2}偶尔饮酒{/if}
+            {if $info['isliquor']==3}经常饮酒{/if}
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">身高（cm）</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <input type="text" name="height" class="form-control" value="{$info['height']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['height']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">体重（kg）</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <input type="text" name="weight" class="form-control" value="{$info['weight']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['weight']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">地址</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <input type="text" name="address" class="form-control" value="{$info['address']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$info['address']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">过敏药品</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <textarea name="allergy_goods" class='form-control'>{$info['allergy_goods']}</textarea>
+
+        {else}
+
+        <div class='form-control-static'>{$info['allergy_goods']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">个人病史</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <textarea name="medical_history" class='form-control'>{$info['medical_history']}</textarea>
+
+        {else}
+
+        <div class='form-control-static'>{$info['medical_history']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">家族病史</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <textarea name="home_medicalhistory" class='form-control'>{$info['home_medicalhistory']}</textarea>
+
+        {else}
+
+        <div class='form-control-static'>{$info['home_medicalhistory']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">遗传病史</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <textarea name="hereditary_medical" class='form-control'>{$info['hereditary_medical']}</textarea>
+
+        {else}
+
+        <div class='form-control-static'>{$info['hereditary_medical']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">已关注的医生</label>
+
+    <div class="col-sm-9 col-xs-12">
+	<ul class="list-inline">
+		{loop $doctors $doc}
+        
+		<li><img src='{$doc['avatar']}' style='width:50px;height:50px;padding:1px;border:1px solid #ccc' /></li>
+		{if strexists($doc['openid'],'sns_wa_')}
+
+            <i class="icon icon-wxapp" data-toggle="tooltip" data-placement="top" data-original-title="小程序注册" style="color: #7586db;"></i>
+			{$doc['nickname']}
+        {/if}
+		
+		
+		
+		{/loop}
+	</ul>
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">注册时间</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        <div class='form-control-static'>{php echo date("Y-m-d H:i:s",$info['createtime'])}</div>
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-sm-2 control-label">是否在线</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'member.patients.edit'}
+
+        <label class="radio-inline"><input type="radio" name="status" value="1" {if $info['status']==1}checked{/if}>是</label>
+
+        <label class="radio-inline" ><input type="radio" name="status" value="0" {if $info['status']==0}checked{/if}>否</label>
+
+        {else}
+
+        <div class='form-control-static'>{if $info['status']==1}是{else}否{/if}</div>
+
+        {/if}
+
+
+
+    </div>
+
+</div>
+
+<div class="form-group"></div>	
+
+          <div class="form-group">
+
+		<label class="col-sm-2 control-label"></label>
+
+		<div class="col-sm-9 col-xs-12">
+
+			{ifp 'member.doctors.edit'}
+
+			<input type="submit"  value="提交" class="btn btn-primary" />
+
+			{/if}
+
+			<input type="button" class="btn btn-default" name="submit" onclick="history.go(-1)" value="返回列表" {ifp 'member.doctors.edit'}style='margin-left:10px;'{/if} />
+
+		</div>
+
+	</div>
+
+
+<script type="text/javascript">
+    
+    $(function () {
+
+        $(".btn-maxcredit").unbind('click').click(function () {
+
+            var val = $(this).val();
+
+            if(val==1){
+
+                $(".maxcreditinput").css({'display':'inline-block'});
+
+            }else{
+
+                $(".maxcreditinput").css({'display':'none'});
+
+            }
+
+        });
+        
+
+    })
+
+
+</script>
+

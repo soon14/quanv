@@ -1,0 +1,39 @@
+<form class="form-horizontal form-validate" action="{php echo webUrl('member/auditing/reject')}" method="post" enctype="multipart/form-data">
+
+    <input type='hidden' name='openid' value='{$openid}' />
+    <input type='hidden' name='isaudit' value='{$isaudit}' />
+
+
+
+    <div class="modal-dialog">
+
+           <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button data-dismiss="modal" class="close" type="button">×</button>
+
+                <h4 class="modal-title">驳回理由</h4>
+
+            </div>
+
+            <div class="modal-body">
+
+                    <textarea style="height:150px;" class="form-control" name="reject"  placeholder="这里填写驳回理由" >{$members['reject']}</textarea>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button class="btn btn-primary" type="submit">提交</button>
+
+                <button data-dismiss="modal" class="btn btn-default" type="button">取消</button>
+
+            </div>
+
+        </div>
+
+</form>
+
+
+

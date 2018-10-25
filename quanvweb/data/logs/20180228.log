@@ -1,0 +1,95 @@
+2018-02-28 02:29:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew8dxgk38YcY0mITU0rvElkY]]></FromUserName>
+<CreateTime>1519756176</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.373919</Latitude>
+<Longitude>113.201126</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-02-28 02:29:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew8dxgk38YcY0mITU0rvElkY',
+    'createtime' => '1519756176',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.373919',
+    'longitude' => '113.201126',
+    'precision' => '65.000000',
+    'from' => 'o3hgew8dxgk38YcY0mITU0rvElkY',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1519756176',
+    'type' => 'trace',
+    'location_x' => '23.373919',
+    'location_y' => '113.201126',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-02-28 02:29:37 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-02-28 02:29:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew8dxgk38YcY0mITU0rvElkY]]></FromUserName>
+<CreateTime>1519756184</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang]]></EventKey>
+<MenuId>424736618</MenuId>
+</xml>
+
+2018-02-28 02:29:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew8dxgk38YcY0mITU0rvElkY',
+    'createtime' => '1519756184',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'menuid' => '424736618',
+    'from' => 'o3hgew8dxgk38YcY0mITU0rvElkY',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1519756184',
+    'type' => 'text',
+    'content' => 'https://wxapp.mctimes.cn/app/index.php?i=1&c=entry&rid=32&do=app_qd&m=meepo_xianchang',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-02-28 02:29:45 response :
+------------
+
+2018-02-28 02:30:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew8dxgk38YcY0mITU0rvElkY]]></FromUserName>
+<CreateTime>1519756208</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

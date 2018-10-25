@@ -1,0 +1,603 @@
+2018-05-17 07:26:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KrLABmzQizMlOaB5mfrhVA]]></FromUserName>
+<CreateTime>1526513177</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[如何使用]]></Content>
+<MsgId>6556324172676356111</MsgId>
+</xml>
+
+2018-05-17 07:26:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KrLABmzQizMlOaB5mfrhVA',
+    'createtime' => '1526513177',
+    'msgtype' => 'text',
+    'content' => '如何使用',
+    'msgid' => '6556324172676356111',
+    'from' => 'o4s6w1KrLABmzQizMlOaB5mfrhVA',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526513177',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-17 07:26:19 response :
+------------
+
+2018-05-17 10:14:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GBSffmVSLuvdJ0JS3coYtg]]></FromUserName>
+<CreateTime>1526523247</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>1000000013</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>1568</TotalCount>
+<FilterCount>1568</FilterCount>
+<SentCount>1568</SentCount>
+<ErrorCount>0</ErrorCount>
+<CopyrightCheckResult><Count>0</Count>
+<ResultList></ResultList>
+<CheckState>0</CheckState>
+</CopyrightCheckResult>
+</xml>
+
+2018-05-17 10:14:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1GBSffmVSLuvdJ0JS3coYtg',
+    'createtime' => '1526523247',
+    'msgtype' => 'event',
+    'event' => 'MASSSENDJOBFINISH',
+    'msgid' => '1000000013',
+    'status' => 'send success',
+    'totalcount' => '1568',
+    'filtercount' => '1568',
+    'sentcount' => '1568',
+    'errorcount' => '0',
+    'copyrightcheckresult' => 
+    array (
+      'count' => '0',
+      'resultlist' => '',
+      'checkstate' => '0',
+    ),
+    'from' => 'o4s6w1GBSffmVSLuvdJ0JS3coYtg',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526523247',
+    'type' => 'event',
+  ),
+)
+
+2018-05-17 10:14:08 response :
+------------
+
+2018-05-17 10:14:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PCJzvAWlol9fV5u119l4ls]]></FromUserName>
+<CreateTime>1526523292</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 10:16:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GxAPEon4siPcA_-VY5U61o]]></FromUserName>
+<CreateTime>1526523379</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 10:16:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KX6yk5TLncohAKOlid1vw4]]></FromUserName>
+<CreateTime>1526523389</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 10:19:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1OYaxdVSk_KRGfGh-LHjfFY]]></FromUserName>
+<CreateTime>1526523579</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 10:28:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1OiwIijU6bhIecQsH0xzrOM]]></FromUserName>
+<CreateTime>1526524088</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 10:34:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1IxkJ-NqUrNoO8ZgotsoKoE]]></FromUserName>
+<CreateTime>1526524451</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 11:00:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Pbe7BW6eweUxvkGCP3oiDQ]]></FromUserName>
+<CreateTime>1526526056</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[交了50元咨询费]]></Content>
+<MsgId>6556379487560171598</MsgId>
+</xml>
+
+2018-05-17 11:00:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'createtime' => '1526526056',
+    'msgtype' => 'text',
+    'content' => '交了50元咨询费',
+    'msgid' => '6556379487560171598',
+    'from' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526526056',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-17 11:00:58 response :
+------------
+
+2018-05-17 11:01:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Pbe7BW6eweUxvkGCP3oiDQ]]></FromUserName>
+<CreateTime>1526526088</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[手机号15982820206，用微信支付的]]></Content>
+<MsgId>6556379624999125114</MsgId>
+</xml>
+
+2018-05-17 11:01:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'createtime' => '1526526088',
+    'msgtype' => 'text',
+    'content' => '手机号15982820206，用微信支付的',
+    'msgid' => '6556379624999125114',
+    'from' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526526088',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-17 11:01:30 response :
+------------
+
+2018-05-17 11:31:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Pbe7BW6eweUxvkGCP3oiDQ]]></FromUserName>
+<CreateTime>1526527893</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/gamewvtibr0V6LuaYoO02AicShmC4Eh00G56MgoHicK6DCQjP4PicC61wS1MKqpFg5LAk5nYtOqqVdsBQo4pSNbQ1w/0]]></PicUrl>
+<MsgId>6556387377415096736</MsgId>
+<MediaId><![CDATA[wIRtVmcAJBkdgPjW_ct1GNf5tt0qwx1rJpjtSXmfX1uSoBK1DsT0Uw1syBU8bCVv]]></MediaId>
+</xml>
+
+2018-05-17 11:31:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'createtime' => '1526527893',
+    'msgtype' => 'image',
+    'picurl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/gamewvtibr0V6LuaYoO02AicShmC4Eh00G56MgoHicK6DCQjP4PicC61wS1MKqpFg5LAk5nYtOqqVdsBQo4pSNbQ1w/0',
+    'msgid' => '6556387377415096736',
+    'mediaid' => 'wIRtVmcAJBkdgPjW_ct1GNf5tt0qwx1rJpjtSXmfX1uSoBK1DsT0Uw1syBU8bCVv',
+    'from' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526527893',
+    'type' => 'image',
+    'event' => NULL,
+    'url' => 'http://mmbiz.qpic.cn/mmbiz_jpg/gamewvtibr0V6LuaYoO02AicShmC4Eh00G56MgoHicK6DCQjP4PicC61wS1MKqpFg5LAk5nYtOqqVdsBQo4pSNbQ1w/0',
+  ),
+)
+
+2018-05-17 11:31:36 response :
+------------
+
+2018-05-17 11:31:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Pbe7BW6eweUxvkGCP3oiDQ]]></FromUserName>
+<CreateTime>1526527913</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[支付宝15982820206]]></Content>
+<MsgId>6556387463314442679</MsgId>
+</xml>
+
+2018-05-17 11:31:55 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'createtime' => '1526527913',
+    'msgtype' => 'text',
+    'content' => '支付宝15982820206',
+    'msgid' => '6556387463314442679',
+    'from' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526527913',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-17 11:31:55 response :
+------------
+
+2018-05-17 11:34:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1IaNNz6Weq64W9UmafTGdVI]]></FromUserName>
+<CreateTime>1526528064</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 11:34:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1IaNNz6Weq64W9UmafTGdVI',
+    'createtime' => '1526528064',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1IaNNz6Weq64W9UmafTGdVI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526528064',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-17 11:34:25 response :
+------------
+
+2018-05-17 11:34:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Pbe7BW6eweUxvkGCP3oiDQ]]></FromUserName>
+<CreateTime>1526528096</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[收到，谢谢]]></Content>
+<MsgId>6556388249293458079</MsgId>
+</xml>
+
+2018-05-17 11:34:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'createtime' => '1526528096',
+    'msgtype' => 'text',
+    'content' => '收到，谢谢',
+    'msgid' => '6556388249293458079',
+    'from' => 'o4s6w1Pbe7BW6eweUxvkGCP3oiDQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526528096',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-17 11:34:58 response :
+------------
+
+2018-05-17 11:35:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1IaNNz6Weq64W9UmafTGdVI]]></FromUserName>
+<CreateTime>1526528112</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[苏安平]]></Content>
+<MsgId>6556388318012934834</MsgId>
+</xml>
+
+2018-05-17 11:35:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1IaNNz6Weq64W9UmafTGdVI',
+    'createtime' => '1526528112',
+    'msgtype' => 'text',
+    'content' => '苏安平',
+    'msgid' => '6556388318012934834',
+    'from' => 'o4s6w1IaNNz6Weq64W9UmafTGdVI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526528112',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-17 11:35:13 response :
+------------
+
+2018-05-17 12:16:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1NvgBSlJqnh3dUDBlD5hEd4]]></FromUserName>
+<CreateTime>1526530597</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 13:27:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AxjztGzx2-w0P-K-fudE9I]]></FromUserName>
+<CreateTime>1526534874</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::)]]></Content>
+<MsgId>6556417360581799403</MsgId>
+</xml>
+
+2018-05-17 13:27:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AxjztGzx2-w0P-K-fudE9I',
+    'createtime' => '1526534874',
+    'msgtype' => 'text',
+    'content' => '/::)',
+    'msgid' => '6556417360581799403',
+    'from' => 'o4s6w1AxjztGzx2-w0P-K-fudE9I',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526534874',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-17 13:27:58 response :
+------------
+
+2018-05-17 16:07:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1IHftEKlQ_6_YT3wbXtKPUY]]></FromUserName>
+<CreateTime>1526544472</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 17:04:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1FXCBvp5a-gXUPvV5CKtFf8]]></FromUserName>
+<CreateTime>1526547847</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 18:49:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Hv3UWtmMDulP7NPb5nzq9M]]></FromUserName>
+<CreateTime>1526554180</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 18:49:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Hv3UWtmMDulP7NPb5nzq9M',
+    'createtime' => '1526554180',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1Hv3UWtmMDulP7NPb5nzq9M',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526554180',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-17 18:49:41 response :
+------------
+
+2018-05-17 20:25:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1LO1GYkM4ygKMCsgLYWe2dc]]></FromUserName>
+<CreateTime>1526559920</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 21:40:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Aibyg12ELEIjxmtAzdS2wY]]></FromUserName>
+<CreateTime>1526564449</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 22:20:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Dbu06CDc1e0aQ6Mhq6LwBs]]></FromUserName>
+<CreateTime>1526566856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-17 22:20:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Dbu06CDc1e0aQ6Mhq6LwBs',
+    'createtime' => '1526566856',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1Dbu06CDc1e0aQ6Mhq6LwBs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1526566856',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-17 22:20:59 response :
+------------
+
+2018-05-17 23:37:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1H9g5QX43WSogLhPY13rUsA]]></FromUserName>
+<CreateTime>1526571440</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

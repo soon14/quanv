@@ -1,0 +1,1507 @@
+2018-05-31 04:21:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GhSx6QFsgmOkcI1H3hf3Rs]]></FromUserName>
+<CreateTime>1527711716</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 04:21:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1GhSx6QFsgmOkcI1H3hf3Rs',
+    'createtime' => '1527711716',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1GhSx6QFsgmOkcI1H3hf3Rs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527711716',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 04:21:57 response :
+------------
+
+2018-05-31 08:35:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1M1IGhsaPJ5-OCN7wtbkXoM]]></FromUserName>
+<CreateTime>1527726956</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 08:35:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'createtime' => '1527726956',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527726956',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 08:35:56 response :
+------------
+
+2018-05-31 08:50:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1M1IGhsaPJ5-OCN7wtbkXoM]]></FromUserName>
+<CreateTime>1527727854</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 08:50:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'createtime' => '1527727854',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527727854',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 08:50:54 response :
+------------
+
+2018-05-31 09:58:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A0WonIp-zsJOqloe7gp24E]]></FromUserName>
+<CreateTime>1527731901</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-31 09:58:21 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A0WonIp-zsJOqloe7gp24E',
+    'createtime' => '1527731901',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1A0WonIp-zsJOqloe7gp24E',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527731901',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-31 09:58:21 response :
+------------
+
+2018-05-31 09:58:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1A0WonIp-zsJOqloe7gp24E]]></FromUserName>
+<CreateTime>1527731907</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 09:58:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1A0WonIp-zsJOqloe7gp24E',
+    'createtime' => '1527731907',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1A0WonIp-zsJOqloe7gp24E',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527731907',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 09:58:27 response :
+------------
+
+2018-05-31 10:39:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527734367</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304373867512725509</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 10:39:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527734367',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304373867512725509',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527734367',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 10:39:27 response :
+------------
+
+2018-05-31 10:42:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527734526</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304376537338216448</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 10:42:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527734526',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304376537338216448',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527734526',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 10:42:06 response :
+------------
+
+2018-05-31 11:43:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew3Udk4nDd4ttLiaHExiURHQ]]></FromUserName>
+<CreateTime>1527738222</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.027294</Latitude>
+<Longitude>113.342491</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-05-31 11:43:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'createtime' => '1527738222',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.027294',
+    'longitude' => '113.342491',
+    'precision' => '65.000000',
+    'from' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1527738222',
+    'type' => 'trace',
+    'location_x' => '23.027294',
+    'location_y' => '113.342491',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-05-31 11:43:42 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-05-31 12:33:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1M1IGhsaPJ5-OCN7wtbkXoM]]></FromUserName>
+<CreateTime>1527741204</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 12:33:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'createtime' => '1527741204',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527741204',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 12:33:25 response :
+------------
+
+2018-05-31 12:34:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1M1IGhsaPJ5-OCN7wtbkXoM]]></FromUserName>
+<CreateTime>1527741280</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[加号]]></Content>
+<MsgId>6561598834899030121</MsgId>
+</xml>
+
+2018-05-31 12:34:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'createtime' => '1527741280',
+    'msgtype' => 'text',
+    'content' => '加号',
+    'msgid' => '6561598834899030121',
+    'from' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527741280',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-31 12:34:41 response :
+------------
+
+2018-05-31 13:10:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1M1IGhsaPJ5-OCN7wtbkXoM]]></FromUserName>
+<CreateTime>1527743423</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 13:10:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'createtime' => '1527743423',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1M1IGhsaPJ5-OCN7wtbkXoM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527743423',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 13:10:23 response :
+------------
+
+2018-05-31 14:13:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527747206</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304589264149151744</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 14:13:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527747206',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304589264149151744',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527747206',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 14:13:26 response :
+------------
+
+2018-05-31 14:20:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527747659</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304596873019260929</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 14:20:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527747659',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304596873019260929',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527747659',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 14:20:59 response :
+------------
+
+2018-05-31 15:03:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1527750224</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304639905638793218</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 15:03:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1527750224',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304639905638793218',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527750224',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 15:03:44 response :
+------------
+
+2018-05-31 15:08:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1G3AyvHsdiSKbpy8q1li5rg]]></FromUserName>
+<CreateTime>1527750507</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304644661274755074</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 15:08:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1G3AyvHsdiSKbpy8q1li5rg',
+    'createtime' => '1527750507',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304644661274755074',
+    'status' => 'success',
+    'from' => 'o4s6w1G3AyvHsdiSKbpy8q1li5rg',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527750507',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 15:08:28 response :
+------------
+
+2018-05-31 15:09:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1527750596</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304646142216519680</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 15:09:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1527750596',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304646142216519680',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527750596',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 15:09:56 response :
+------------
+
+2018-05-31 15:13:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1ET-GsH99VBZiISYvK5kwHE]]></FromUserName>
+<CreateTime>1527750786</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304649333243002882</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 15:13:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'createtime' => '1527750786',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304649333243002882',
+    'status' => 'success',
+    'from' => 'o4s6w1ET-GsH99VBZiISYvK5kwHE',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527750786',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 15:13:06 response :
+------------
+
+2018-05-31 15:22:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527751329</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304658440855355393</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 15:22:09 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527751329',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304658440855355393',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527751329',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 15:22:09 response :
+------------
+
+2018-05-31 16:16:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527754612</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304713525455093761</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:16:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527754612',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304713525455093761',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527754612',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:16:53 response :
+------------
+
+2018-05-31 16:24:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AAkIP-XZ2Qbr5JaEKIm_c8]]></FromUserName>
+<CreateTime>1527755059</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304721027135733760</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:24:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AAkIP-XZ2Qbr5JaEKIm_c8',
+    'createtime' => '1527755059',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304721027135733760',
+    'status' => 'success',
+    'from' => 'o4s6w1AAkIP-XZ2Qbr5JaEKIm_c8',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527755059',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:24:20 response :
+------------
+
+2018-05-31 16:26:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1FnhYYkr1J3fg9nt3PJysK4]]></FromUserName>
+<CreateTime>1527755192</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304723262078844928</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:26:33 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1FnhYYkr1J3fg9nt3PJysK4',
+    'createtime' => '1527755192',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304723262078844928',
+    'status' => 'success',
+    'from' => 'o4s6w1FnhYYkr1J3fg9nt3PJysK4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527755192',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:26:33 response :
+------------
+
+2018-05-31 16:29:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1FnhYYkr1J3fg9nt3PJysK4]]></FromUserName>
+<CreateTime>1527755360</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304726068638646273</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:29:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1FnhYYkr1J3fg9nt3PJysK4',
+    'createtime' => '1527755360',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304726068638646273',
+    'status' => 'success',
+    'from' => 'o4s6w1FnhYYkr1J3fg9nt3PJysK4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527755360',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:29:20 response :
+------------
+
+2018-05-31 16:35:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1I7yYepqjPjd48veVqVR8-E]]></FromUserName>
+<CreateTime>1527755735</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304732371771736066</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:35:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1I7yYepqjPjd48veVqVR8-E',
+    'createtime' => '1527755735',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304732371771736066',
+    'status' => 'success',
+    'from' => 'o4s6w1I7yYepqjPjd48veVqVR8-E',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527755735',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:35:36 response :
+------------
+
+2018-05-31 16:40:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527756048</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304737614232158208</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:40:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527756048',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304737614232158208',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527756048',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:40:48 response :
+------------
+
+2018-05-31 16:43:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527756218</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304740462500118528</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:43:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527756218',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304740462500118528',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527756218',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:43:38 response :
+------------
+
+2018-05-31 16:58:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527757079</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304754921339748357</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 16:58:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527757079',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304754921339748357',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527757079',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 16:58:00 response :
+------------
+
+2018-05-31 17:01:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AayZ3CreHq1U8TbFbV_Y60]]></FromUserName>
+<CreateTime>1527757311</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304758808738136068</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 17:01:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'createtime' => '1527757311',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304758808738136068',
+    'status' => 'success',
+    'from' => 'o4s6w1AayZ3CreHq1U8TbFbV_Y60',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527757311',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 17:01:52 response :
+------------
+
+2018-05-31 17:37:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AAkIP-XZ2Qbr5JaEKIm_c8]]></FromUserName>
+<CreateTime>1527759434</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304794422221242368</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 17:37:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AAkIP-XZ2Qbr5JaEKIm_c8',
+    'createtime' => '1527759434',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304794422221242368',
+    'status' => 'success',
+    'from' => 'o4s6w1AAkIP-XZ2Qbr5JaEKIm_c8',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527759434',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 17:37:14 response :
+------------
+
+2018-05-31 17:37:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1FnhYYkr1J3fg9nt3PJysK4]]></FromUserName>
+<CreateTime>1527759473</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304795074536013824</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 17:37:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1FnhYYkr1J3fg9nt3PJysK4',
+    'createtime' => '1527759473',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304795074536013824',
+    'status' => 'success',
+    'from' => 'o4s6w1FnhYYkr1J3fg9nt3PJysK4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527759473',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 17:37:53 response :
+------------
+
+2018-05-31 18:57:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1J1MbzxfEfnOMlcoExjaowY]]></FromUserName>
+<CreateTime>1527764268</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>304875522947661825</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-05-31 18:57:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1J1MbzxfEfnOMlcoExjaowY',
+    'createtime' => '1527764268',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '304875522947661825',
+    'status' => 'success',
+    'from' => 'o4s6w1J1MbzxfEfnOMlcoExjaowY',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527764268',
+    'type' => 'event',
+  ),
+)
+
+2018-05-31 18:57:48 response :
+------------
+
+2018-05-31 19:41:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GqIFUopdbrOMVrLkhoJFOA]]></FromUserName>
+<CreateTime>1527766878</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 19:41:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1GqIFUopdbrOMVrLkhoJFOA',
+    'createtime' => '1527766878',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1GqIFUopdbrOMVrLkhoJFOA',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527766878',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 19:41:19 response :
+------------
+
+2018-05-31 20:58:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JGYDw21NeIDPvenGUvbmFI]]></FromUserName>
+<CreateTime>1527771495</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 20:58:16 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JGYDw21NeIDPvenGUvbmFI',
+    'createtime' => '1527771495',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1JGYDw21NeIDPvenGUvbmFI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527771495',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 20:58:16 response :
+------------
+
+2018-05-31 20:58:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JGYDw21NeIDPvenGUvbmFI]]></FromUserName>
+<CreateTime>1527771525</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 20:58:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JGYDw21NeIDPvenGUvbmFI',
+    'createtime' => '1527771525',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1JGYDw21NeIDPvenGUvbmFI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527771525',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 20:58:45 response :
+------------
+
+2018-05-31 22:03:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1H6R77Nvi72HlWZfxRhJFBI]]></FromUserName>
+<CreateTime>1527775389</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 22:03:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1H6R77Nvi72HlWZfxRhJFBI',
+    'createtime' => '1527775389',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1H6R77Nvi72HlWZfxRhJFBI',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527775389',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 22:03:10 response :
+------------
+
+2018-05-31 22:25:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1LT64nM-3El-MgA9TLlFjs4]]></FromUserName>
+<CreateTime>1527776735</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 22:25:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1LT64nM-3El-MgA9TLlFjs4',
+    'createtime' => '1527776735',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1LT64nM-3El-MgA9TLlFjs4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527776735',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 22:25:36 response :
+------------
+
+2018-05-31 22:25:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1LT64nM-3El-MgA9TLlFjs4]]></FromUserName>
+<CreateTime>1527776746</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 22:25:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1LT64nM-3El-MgA9TLlFjs4',
+    'createtime' => '1527776746',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1LT64nM-3El-MgA9TLlFjs4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527776746',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 22:25:46 response :
+------------
+
+2018-05-31 22:39:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1MwtJ9BM7qiSeL-XZ39auZk]]></FromUserName>
+<CreateTime>1527777553</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 22:39:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1MwtJ9BM7qiSeL-XZ39auZk',
+    'createtime' => '1527777553',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1MwtJ9BM7qiSeL-XZ39auZk',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527777553',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 22:39:13 response :
+------------
+
+2018-05-31 22:41:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1EG4C9DqZKwjmsGmGe3IyV4]]></FromUserName>
+<CreateTime>1527777701</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-31 22:49:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1HnoC-ikeOF_ZptvzAVAVz4]]></FromUserName>
+<CreateTime>1527778164</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 22:49:24 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1HnoC-ikeOF_ZptvzAVAVz4',
+    'createtime' => '1527778164',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1HnoC-ikeOF_ZptvzAVAVz4',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527778164',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 22:49:24 response :
+------------
+
+2018-05-31 23:40:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KrLABmzQizMlOaB5mfrhVA]]></FromUserName>
+<CreateTime>1527781217</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile]]></EventKey>
+<MenuId>548989418</MenuId>
+</xml>
+
+2018-05-31 23:40:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KrLABmzQizMlOaB5mfrhVA',
+    'createtime' => '1527781217',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'menuid' => '548989418',
+    'from' => 'o4s6w1KrLABmzQizMlOaB5mfrhVA',
+    'to' => 'gh_8a317808696e',
+    'time' => '1527781217',
+    'type' => 'text',
+    'content' => 'https://v.mctimes.cn/app/index.php?i=3&c=entry&m=rr_vv3&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-05-31 23:40:18 response :
+------------
+

@@ -1,0 +1,271 @@
+2018-05-10 14:44:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1saaOXUYOPz_g-ka3nWoQIc]]></FromUserName>
+<CreateTime>1525934640</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-10 14:44:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_a9952e35e47c',
+    'fromusername' => 'oyl2N1saaOXUYOPz_g-ka3nWoQIc',
+    'createtime' => '1525934640',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oyl2N1saaOXUYOPz_g-ka3nWoQIc',
+    'to' => 'gh_a9952e35e47c',
+    'time' => '1525934640',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-10 14:44:01 response :
+------------
+
+2018-05-10 14:44:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1s8fNAuVsk-6M4O8r6TxHyg]]></FromUserName>
+<CreateTime>1525934677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-10 14:44:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_a9952e35e47c',
+    'fromusername' => 'oyl2N1s8fNAuVsk-6M4O8r6TxHyg',
+    'createtime' => '1525934677',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oyl2N1s8fNAuVsk-6M4O8r6TxHyg',
+    'to' => 'gh_a9952e35e47c',
+    'time' => '1525934677',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-10 14:44:38 response :
+------------
+
+2018-05-10 15:22:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1gek3JM5Vt4-VZtUJL2BQ3Y]]></FromUserName>
+<CreateTime>1525936932</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-10 15:22:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_a9952e35e47c',
+    'fromusername' => 'oyl2N1gek3JM5Vt4-VZtUJL2BQ3Y',
+    'createtime' => '1525936932',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oyl2N1gek3JM5Vt4-VZtUJL2BQ3Y',
+    'to' => 'gh_a9952e35e47c',
+    'time' => '1525936932',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-10 15:22:14 response :
+------------
+
+2018-05-10 15:22:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1qfhaHZUSaEVBO16qSWK_OI]]></FromUserName>
+<CreateTime>1525936940</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-10 15:22:21 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_a9952e35e47c',
+    'fromusername' => 'oyl2N1qfhaHZUSaEVBO16qSWK_OI',
+    'createtime' => '1525936940',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oyl2N1qfhaHZUSaEVBO16qSWK_OI',
+    'to' => 'gh_a9952e35e47c',
+    'time' => '1525936940',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-10 15:22:21 response :
+------------
+
+2018-05-10 17:04:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1trSL6Ii4896VRIjpGu8NKw]]></FromUserName>
+<CreateTime>1525943045</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-10 17:04:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_a9952e35e47c',
+    'fromusername' => 'oyl2N1trSL6Ii4896VRIjpGu8NKw',
+    'createtime' => '1525943045',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oyl2N1trSL6Ii4896VRIjpGu8NKw',
+    'to' => 'gh_a9952e35e47c',
+    'time' => '1525943045',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-10 17:04:07 response :
+------------
+
+2018-05-10 21:06:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1qfhaHZUSaEVBO16qSWK_OI]]></FromUserName>
+<CreateTime>1525957607</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[q]]></Content>
+<MsgId>6553938017842991875</MsgId>
+</xml>
+
+2018-05-10 21:06:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_a9952e35e47c',
+    'fromusername' => 'oyl2N1qfhaHZUSaEVBO16qSWK_OI',
+    'createtime' => '1525957607',
+    'msgtype' => 'text',
+    'content' => 'q',
+    'msgid' => '6553938017842991875',
+    'from' => 'oyl2N1qfhaHZUSaEVBO16qSWK_OI',
+    'to' => 'gh_a9952e35e47c',
+    'time' => '1525957607',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-10 21:06:49 response :
+------------
+
+2018-05-10 21:07:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1qfhaHZUSaEVBO16qSWK_OI]]></FromUserName>
+<CreateTime>1525957647</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-10 21:08:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_a9952e35e47c]]></ToUserName>
+<FromUserName><![CDATA[oyl2N1qfhaHZUSaEVBO16qSWK_OI]]></FromUserName>
+<CreateTime>1525957684</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-05-10 21:08:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_a9952e35e47c',
+    'fromusername' => 'oyl2N1qfhaHZUSaEVBO16qSWK_OI',
+    'createtime' => '1525957684',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oyl2N1qfhaHZUSaEVBO16qSWK_OI',
+    'to' => 'gh_a9952e35e47c',
+    'time' => '1525957684',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-05-10 21:08:06 response :
+------------
+

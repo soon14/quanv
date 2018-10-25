@@ -1,0 +1,131 @@
+2018-06-23 09:42:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew3Udk4nDd4ttLiaHExiURHQ]]></FromUserName>
+<CreateTime>1529718131</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.027283</Latitude>
+<Longitude>113.342453</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-06-23 09:42:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'createtime' => '1529718131',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.027283',
+    'longitude' => '113.342453',
+    'precision' => '65.000000',
+    'from' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1529718131',
+    'type' => 'trace',
+    'location_x' => '23.027283',
+    'location_y' => '113.342453',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-06-23 09:42:12 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-06-23 16:19:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KRgYeO7_OF3blJDWX-RVVs]]></FromUserName>
+<CreateTime>1529741964</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我们挂号去医院的时候 需要在前台登记挂号吗？还是直接进去呢？]]></Content>
+<MsgId>6570191707251612761</MsgId>
+</xml>
+
+2018-06-23 16:19:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KRgYeO7_OF3blJDWX-RVVs',
+    'createtime' => '1529741964',
+    'msgtype' => 'text',
+    'content' => '我们挂号去医院的时候 需要在前台登记挂号吗？还是直接进去呢？',
+    'msgid' => '6570191707251612761',
+    'from' => 'o4s6w1KRgYeO7_OF3blJDWX-RVVs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1529741964',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-06-23 16:19:25 response :
+------------
+
+2018-06-23 16:19:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KRgYeO7_OF3blJDWX-RVVs]]></FromUserName>
+<CreateTime>1529741992</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[门口有保安需不需要出示什么挂号信息？]]></Content>
+<MsgId>6570191827510697134</MsgId>
+</xml>
+
+2018-06-23 16:19:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1KRgYeO7_OF3blJDWX-RVVs',
+    'createtime' => '1529741992',
+    'msgtype' => 'text',
+    'content' => '门口有保安需不需要出示什么挂号信息？',
+    'msgid' => '6570191827510697134',
+    'from' => 'o4s6w1KRgYeO7_OF3blJDWX-RVVs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1529741992',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-06-23 16:19:52 response :
+------------
+
+2018-06-23 20:31:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Nw9UzKYCtgiL6E3KxQ02dk]]></FromUserName>
+<CreateTime>1529757096</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

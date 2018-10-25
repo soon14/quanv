@@ -1,0 +1,261 @@
+2018-07-18 14:41:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1NmDXvNudxeWTNOanLeai64]]></FromUserName>
+<CreateTime>1531896102</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-18 16:03:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1531901009</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>374278514972917761</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-18 16:03:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1531901009',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '374278514972917761',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531901009',
+    'type' => 'event',
+  ),
+)
+
+2018-07-18 16:03:29 response :
+------------
+
+2018-07-18 19:33:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1G9eNWEJKPdHxo2uuBpYGzM]]></FromUserName>
+<CreateTime>1531913626</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>374490196932182019</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-18 19:33:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1G9eNWEJKPdHxo2uuBpYGzM',
+    'createtime' => '1531913626',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '374490196932182019',
+    'status' => 'success',
+    'from' => 'o4s6w1G9eNWEJKPdHxo2uuBpYGzM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531913626',
+    'type' => 'event',
+  ),
+)
+
+2018-07-18 19:33:46 response :
+------------
+
+2018-07-18 20:00:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DiqiWnB5VKNoytebEDl1Nc]]></FromUserName>
+<CreateTime>1531915208</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>374516747296145409</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-18 20:00:09 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'createtime' => '1531915208',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '374516747296145409',
+    'status' => 'success',
+    'from' => 'o4s6w1DiqiWnB5VKNoytebEDl1Nc',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531915208',
+    'type' => 'event',
+  ),
+)
+
+2018-07-18 20:00:09 response :
+------------
+
+2018-07-18 21:15:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1G9eNWEJKPdHxo2uuBpYGzM]]></FromUserName>
+<CreateTime>1531919726</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>374592535617748992</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-07-18 21:15:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1G9eNWEJKPdHxo2uuBpYGzM',
+    'createtime' => '1531919726',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '374592535617748992',
+    'status' => 'success',
+    'from' => 'o4s6w1G9eNWEJKPdHxo2uuBpYGzM',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531919726',
+    'type' => 'event',
+  ),
+)
+
+2018-07-18 21:15:26 response :
+------------
+
+2018-07-18 22:22:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PsaqGkNdqYyqJMx6__I-4I]]></FromUserName>
+<CreateTime>1531923751</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-18 22:22:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'createtime' => '1531923751',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531923751',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-18 22:22:32 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1PsaqGkNdqYyqJMx6__I-4I ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-18 22:30:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PsaqGkNdqYyqJMx6__I-4I]]></FromUserName>
+<CreateTime>1531924249</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[想预约华西医院苏安平医生的当面咨询，总是提交不了，页面一直在转，就是转不出结果，怎么办？]]></Content>
+<MsgId>6579564549960330650</MsgId>
+</xml>
+
+2018-07-18 22:30:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'createtime' => '1531924249',
+    'msgtype' => 'text',
+    'content' => '想预约华西医院苏安平医生的当面咨询，总是提交不了，页面一直在转，就是转不出结果，怎么办？',
+    'msgid' => '6579564549960330650',
+    'from' => 'o4s6w1PsaqGkNdqYyqJMx6__I-4I',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531924249',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-18 22:30:50 response :
+------------
+

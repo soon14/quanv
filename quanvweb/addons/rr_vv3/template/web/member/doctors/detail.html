@@ -1,0 +1,60 @@
+{template '_header'}
+
+<div class="page-heading"> <h2>医生详情</h2> </div>
+
+
+
+<form {if 'member.doctors.edit'}action="" method='post'{/if} class='form-horizontal form-validate'>
+
+ <input type="hidden" name="referer" value="{php echo referer()}" />
+
+	<div class="tabs-container">
+
+
+
+		<div class="tabs">
+
+			<ul class="nav nav-tabs">
+
+				<li class="active"><a data-toggle="tab" href="#tab-basic" aria-expanded="true"> 基本信息</a></li>
+
+			</ul>
+
+			<div class="tab-content ">
+
+				<div id="tab-basic" class="tab-pane active">{template 'member/doctors/basic'}</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="form-group"></div>	
+
+          <div class="form-group">
+
+		<label class="col-sm-2 control-label"></label>
+
+		<div class="col-sm-9 col-xs-12">
+
+			{ifp 'member.doctors.edit'}
+
+			<input type="submit"  value="提交" class="btn btn-primary" />
+
+			{/if}
+
+			<input type="button" class="btn btn-default" name="submit" onclick="history.go(-1)" value="返回列表" {ifp 'member.doctors.edit'}style='margin-left:10px;'{/if} />
+
+		</div>
+
+	</div>
+
+
+
+</form>
+
+
+
+{template '_footer'}
+

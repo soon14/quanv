@@ -1,0 +1,431 @@
+2018-07-01 07:26:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Dka__ZoqtKQqlIZUKvQa58]]></FromUserName>
+<CreateTime>1530401176</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[副乳需要切除吗？会癌变吗]]></Content>
+<MsgId>6573023001233606633</MsgId>
+</xml>
+
+2018-07-01 07:26:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1Dka__ZoqtKQqlIZUKvQa58',
+    'createtime' => '1530401176',
+    'msgtype' => 'text',
+    'content' => '副乳需要切除吗？会癌变吗',
+    'msgid' => '6573023001233606633',
+    'from' => 'o4s6w1Dka__ZoqtKQqlIZUKvQa58',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530401176',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-01 07:26:17 response :
+------------
+
+2018-07-01 08:40:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwSw3m6qVWtwX41x1nCqfVo]]></FromUserName>
+<CreateTime>1530405658</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgew9XkkbkwPgTsmLu8YQw8Ink]]></CardId>
+<UserCardCode><![CDATA[407126097500]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-07-01 08:40:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwSw3m6qVWtwX41x1nCqfVo',
+    'createtime' => '1530405658',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgew9XkkbkwPgTsmLu8YQw8Ink',
+    'usercardcode' => '407126097500',
+    'outerstr' => '',
+    'from' => 'o3hgewwSw3m6qVWtwX41x1nCqfVo',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1530405658',
+    'type' => 'event',
+  ),
+)
+
+2018-07-01 08:40:58 response :
+------------
+
+2018-07-01 08:41:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwSw3m6qVWtwX41x1nCqfVo]]></FromUserName>
+<CreateTime>1530405663</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 08:41:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwSw3m6qVWtwX41x1nCqfVo',
+    'createtime' => '1530405663',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgewwSw3m6qVWtwX41x1nCqfVo',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1530405663',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-01 08:41:04 response :
+------------
+
+2018-07-01 08:41:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewwSw3m6qVWtwX41x1nCqfVo]]></FromUserName>
+<CreateTime>1530405668</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.406689</Latitude>
+<Longitude>113.225067</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-07-01 08:41:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewwSw3m6qVWtwX41x1nCqfVo',
+    'createtime' => '1530405668',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.406689',
+    'longitude' => '113.225067',
+    'precision' => '65.000000',
+    'from' => 'o3hgewwSw3m6qVWtwX41x1nCqfVo',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1530405668',
+    'type' => 'trace',
+    'location_x' => '23.406689',
+    'location_y' => '113.225067',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-07-01 08:41:08 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-07-01 09:20:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GBSffmVSLuvdJ0JS3coYtg]]></FromUserName>
+<CreateTime>1530408025</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>1000000018</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>1630</TotalCount>
+<FilterCount>1630</FilterCount>
+<SentCount>1630</SentCount>
+<ErrorCount>0</ErrorCount>
+<CopyrightCheckResult><Count>0</Count>
+<ResultList></ResultList>
+<CheckState>0</CheckState>
+</CopyrightCheckResult>
+</xml>
+
+2018-07-01 09:20:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1GBSffmVSLuvdJ0JS3coYtg',
+    'createtime' => '1530408025',
+    'msgtype' => 'event',
+    'event' => 'MASSSENDJOBFINISH',
+    'msgid' => '1000000018',
+    'status' => 'send success',
+    'totalcount' => '1630',
+    'filtercount' => '1630',
+    'sentcount' => '1630',
+    'errorcount' => '0',
+    'copyrightcheckresult' => 
+    array (
+      'count' => '0',
+      'resultlist' => '',
+      'checkstate' => '0',
+    ),
+    'from' => 'o4s6w1GBSffmVSLuvdJ0JS3coYtg',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530408025',
+    'type' => 'event',
+  ),
+)
+
+2018-07-01 09:20:25 response :
+------------
+
+2018-07-01 09:28:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1P859UjAHicGsjaRTQ2Vpnk]]></FromUserName>
+<CreateTime>1530408501</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 09:38:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1OQ5n7NsofCY6rfl5Rzf2Jw]]></FromUserName>
+<CreateTime>1530409123</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 09:41:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1MXgvexIKRjKeBZMAmeRzJs]]></FromUserName>
+<CreateTime>1530409298</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 09:43:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Aw3HR14aI9yAnrnRo337bE]]></FromUserName>
+<CreateTime>1530409432</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 10:33:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1KB-TSXQGcLffTt3L98Z4Ms]]></FromUserName>
+<CreateTime>1530412388</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 11:00:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Oosh4lJVsJfcgBbQNNbvBE]]></FromUserName>
+<CreateTime>1530414008</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 11:06:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1HjX68rTOYImQ64gV1-00Io]]></FromUserName>
+<CreateTime>1530414359</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 11:47:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew3Udk4nDd4ttLiaHExiURHQ]]></FromUserName>
+<CreateTime>1530416837</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.027308</Latitude>
+<Longitude>113.342407</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-07-01 11:47:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'createtime' => '1530416837',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.027308',
+    'longitude' => '113.342407',
+    'precision' => '65.000000',
+    'from' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1530416837',
+    'type' => 'trace',
+    'location_x' => '23.027308',
+    'location_y' => '113.342407',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-07-01 11:47:18 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-07-01 11:55:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1HyBH8cPulMXlndeoO_CzMM]]></FromUserName>
+<CreateTime>1530417336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 12:41:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AJknigeUhcZv7YaphqmEDw]]></FromUserName>
+<CreateTime>1530420075</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 19:01:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1Io5lkzPm3qyRZjcRTAiAZA]]></FromUserName>
+<CreateTime>1530442888</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 23:02:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DsgA7xSiIuXKmucpfGqK-E]]></FromUserName>
+<CreateTime>1530457356</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-01 23:02:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DsgA7xSiIuXKmucpfGqK-E',
+    'createtime' => '1530457356',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1DsgA7xSiIuXKmucpfGqK-E',
+    'to' => 'gh_8a317808696e',
+    'time' => '1530457356',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-01 23:02:38 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1DsgA7xSiIuXKmucpfGqK-E ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+

@@ -1,0 +1,672 @@
+2018-04-03 09:24:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew28wW7F_CQ57j_gxmv2MAZ4]]></FromUserName>
+<CreateTime>1522718692</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-04-03 09:24:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'createtime' => '1522718692',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522718692',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-04-03 09:24:54 response :
+------------
+
+2018-04-03 09:24:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew28wW7F_CQ57j_gxmv2MAZ4]]></FromUserName>
+<CreateTime>1522718698</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.714306</Latitude>
+<Longitude>113.830704</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-04-03 09:24:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'createtime' => '1522718698',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.714306',
+    'longitude' => '113.830704',
+    'precision' => '65.000000',
+    'from' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522718698',
+    'type' => 'trace',
+    'location_x' => '22.714306',
+    'location_y' => '113.830704',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-03 09:24:59 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-04-03 09:25:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew28wW7F_CQ57j_gxmv2MAZ4]]></FromUserName>
+<CreateTime>1522718717</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_get_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<IsGiveByFriend>0</IsGiveByFriend>
+<UserCardCode><![CDATA[624215330429]]></UserCardCode>
+<FriendUserName><![CDATA[]]></FriendUserName>
+<OuterId>0</OuterId>
+<OldUserCardCode><![CDATA[]]></OldUserCardCode>
+<IsRestoreMemberCard>0</IsRestoreMemberCard>
+<IsRecommendByFriend>0</IsRecommendByFriend>
+<SourceScene><![CDATA[SOURCE_SCENE_QRCODE]]></SourceScene>
+<UnionId><![CDATA[oAAAAANuE4ozno-dAXBp9ejloAGY]]></UnionId>
+</xml>
+
+2018-04-03 09:25:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'createtime' => '1522718717',
+    'msgtype' => 'event',
+    'event' => 'user_get_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'isgivebyfriend' => '0',
+    'usercardcode' => '624215330429',
+    'friendusername' => '',
+    'outerid' => '0',
+    'oldusercardcode' => '',
+    'isrestoremembercard' => '0',
+    'isrecommendbyfriend' => '0',
+    'sourcescene' => 'SOURCE_SCENE_QRCODE',
+    'unionid' => 'oAAAAANuE4ozno-dAXBp9ejloAGY',
+    'from' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522718717',
+    'type' => 'coupon',
+  ),
+)
+
+2018-04-03 09:25:18 response :
+------------
+
+2018-04-03 09:25:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew28wW7F_CQ57j_gxmv2MAZ4]]></FromUserName>
+<CreateTime>1522718718</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[624215330429]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-04-03 09:25:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'createtime' => '1522718718',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '624215330429',
+    'outerstr' => '',
+    'from' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522718718',
+    'type' => 'event',
+  ),
+)
+
+2018-04-03 09:25:19 response :
+------------
+
+2018-04-03 09:25:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew28wW7F_CQ57j_gxmv2MAZ4]]></FromUserName>
+<CreateTime>1522718724</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[624215330429]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-04-03 09:25:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'createtime' => '1522718724',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '624215330429',
+    'outerstr' => '',
+    'from' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522718724',
+    'type' => 'event',
+  ),
+)
+
+2018-04-03 09:25:25 response :
+------------
+
+2018-04-03 09:32:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew0fZPkbs-r3QmI7otnCHJPo]]></FromUserName>
+<CreateTime>1522719156</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-04-03 09:32:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew0fZPkbs-r3QmI7otnCHJPo',
+    'createtime' => '1522719156',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew0fZPkbs-r3QmI7otnCHJPo',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522719156',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-04-03 09:32:38 response :
+------------
+
+2018-04-03 11:28:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewy_KONUmlINWSg7jsIf9qP4]]></FromUserName>
+<CreateTime>1522726132</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-04-03 11:28:55 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewy_KONUmlINWSg7jsIf9qP4',
+    'createtime' => '1522726132',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgewy_KONUmlINWSg7jsIf9qP4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522726132',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-04-03 11:28:55 response :
+------------
+
+2018-04-03 11:28:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewy_KONUmlINWSg7jsIf9qP4]]></FromUserName>
+<CreateTime>1522726135</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.714321</Latitude>
+<Longitude>113.830666</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-04-03 11:28:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewy_KONUmlINWSg7jsIf9qP4',
+    'createtime' => '1522726135',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.714321',
+    'longitude' => '113.830666',
+    'precision' => '65.000000',
+    'from' => 'o3hgewy_KONUmlINWSg7jsIf9qP4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522726135',
+    'type' => 'trace',
+    'location_x' => '22.714321',
+    'location_y' => '113.830666',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-03 11:28:56 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-04-03 12:00:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew1ziAbCq4k9cYwX-pisYzdk]]></FromUserName>
+<CreateTime>1522728054</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-04-03 12:00:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew1ziAbCq4k9cYwX-pisYzdk',
+    'createtime' => '1522728054',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew1ziAbCq4k9cYwX-pisYzdk',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522728054',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-04-03 12:00:56 response :
+------------
+
+2018-04-03 12:06:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew28wW7F_CQ57j_gxmv2MAZ4]]></FromUserName>
+<CreateTime>1522728364</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.714325</Latitude>
+<Longitude>113.830635</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-04-03 12:06:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'createtime' => '1522728364',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.714325',
+    'longitude' => '113.830635',
+    'precision' => '65.000000',
+    'from' => 'o3hgew28wW7F_CQ57j_gxmv2MAZ4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522728364',
+    'type' => 'trace',
+    'location_x' => '22.714325',
+    'location_y' => '113.830635',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-03 12:06:05 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-04-03 12:25:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew82QtUlmLEQWrBosseI1Z0o]]></FromUserName>
+<CreateTime>1522729538</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-04-03 12:25:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'createtime' => '1522729538',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522729538',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-04-03 12:25:41 response :
+------------
+
+2018-04-03 12:25:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew82QtUlmLEQWrBosseI1Z0o]]></FromUserName>
+<CreateTime>1522729551</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.715937</Latitude>
+<Longitude>113.830132</Longitude>
+<Precision>810.000000</Precision>
+</xml>
+
+2018-04-03 12:25:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'createtime' => '1522729551',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.715937',
+    'longitude' => '113.830132',
+    'precision' => '810.000000',
+    'from' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522729551',
+    'type' => 'trace',
+    'location_x' => '22.715937',
+    'location_y' => '113.830132',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-03 12:25:52 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-04-03 12:26:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew82QtUlmLEQWrBosseI1Z0o]]></FromUserName>
+<CreateTime>1522729599</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_get_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<IsGiveByFriend>0</IsGiveByFriend>
+<UserCardCode><![CDATA[160816882411]]></UserCardCode>
+<FriendUserName><![CDATA[]]></FriendUserName>
+<OuterId>0</OuterId>
+<OldUserCardCode><![CDATA[]]></OldUserCardCode>
+<IsRestoreMemberCard>0</IsRestoreMemberCard>
+<IsRecommendByFriend>0</IsRecommendByFriend>
+<SourceScene><![CDATA[SOURCE_SCENE_QRCODE]]></SourceScene>
+<UnionId><![CDATA[oAAAAAFMB-MDz_3u_PDo5X3hvzGU]]></UnionId>
+</xml>
+
+2018-04-03 12:26:40 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'createtime' => '1522729599',
+    'msgtype' => 'event',
+    'event' => 'user_get_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'isgivebyfriend' => '0',
+    'usercardcode' => '160816882411',
+    'friendusername' => '',
+    'outerid' => '0',
+    'oldusercardcode' => '',
+    'isrestoremembercard' => '0',
+    'isrecommendbyfriend' => '0',
+    'sourcescene' => 'SOURCE_SCENE_QRCODE',
+    'unionid' => 'oAAAAAFMB-MDz_3u_PDo5X3hvzGU',
+    'from' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522729599',
+    'type' => 'coupon',
+  ),
+)
+
+2018-04-03 12:26:40 response :
+------------
+
+2018-04-03 12:26:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew82QtUlmLEQWrBosseI1Z0o]]></FromUserName>
+<CreateTime>1522729599</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[160816882411]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-04-03 12:26:40 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'createtime' => '1522729599',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '160816882411',
+    'outerstr' => '',
+    'from' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522729599',
+    'type' => 'event',
+  ),
+)
+
+2018-04-03 12:26:40 response :
+------------
+
+2018-04-03 12:32:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew82QtUlmLEQWrBosseI1Z0o]]></FromUserName>
+<CreateTime>1522729928</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.709494</Latitude>
+<Longitude>113.829926</Longitude>
+<Precision>880.000000</Precision>
+</xml>
+
+2018-04-03 12:32:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'createtime' => '1522729928',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.709494',
+    'longitude' => '113.829926',
+    'precision' => '880.000000',
+    'from' => 'o3hgew82QtUlmLEQWrBosseI1Z0o',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522729928',
+    'type' => 'trace',
+    'location_x' => '22.709494',
+    'location_y' => '113.829926',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-03 12:32:09 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-04-03 19:14:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgewy_KONUmlINWSg7jsIf9qP4]]></FromUserName>
+<CreateTime>1522754092</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.730824</Latitude>
+<Longitude>113.828842</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-04-03 19:14:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgewy_KONUmlINWSg7jsIf9qP4',
+    'createtime' => '1522754092',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.730824',
+    'longitude' => '113.828842',
+    'precision' => '65.000000',
+    'from' => 'o3hgewy_KONUmlINWSg7jsIf9qP4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1522754092',
+    'type' => 'trace',
+    'location_x' => '22.730824',
+    'location_y' => '113.828842',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-03 19:14:53 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+

@@ -1,0 +1,213 @@
+{template '_header'}
+<style type='text/css'>
+    .trhead td {  background:#efefef;text-align: center}
+    .trbody td {  text-align: center; vertical-align:top;border-left:1px solid #f2f2f2;overflow: hidden; font-size:12px;}
+    .trorder { background:#f8f8f8;border:1px solid #f2f2f2;text-align:left;}
+    .ops { border-right:1px solid #f2f2f2; text-align: center;}
+</style>
+
+<div class="page-heading">
+
+    <h2>历史咨询管理</h2>
+</div>
+
+<form action="./index.php" method="get" class="form-horizontal table-search" role="form">
+
+        <input type="hidden" name="c" value="site" />
+
+        <input type="hidden" name="a" value="entry" />
+
+        <input type="hidden" name="m" value="rr_vv3" />
+
+        <input type="hidden" name="do" value="web" />
+
+        <input type="hidden" name="r" value="consult.historys" />
+
+        <div class="page-toolbar row m-b-sm m-t-sm">
+
+            <div class="col-sm-4">
+
+                <div class="input-group-btn">
+
+                  <button class="btn btn-default btn-sm"  type="button" data-toggle='refresh'><i class='fa fa-refresh'></i></button>
+
+                  {ifp 'consult.historys.delete'}
+
+                    <!-- <button class="btn btn-default btn-sm" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('consult/historys/delete')}"><i class='fa fa-trash'></i> 批量删除</button> -->
+
+                  {/if}
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 pull-right">
+
+                <div class="input-group">
+
+                  <input type="text" class="form-control input-sm"  name="keyword" value="{$_GPC['keyword']}" placeholder="可搜索星期/费用/地址"/>
+
+                  <span class="input-group-btn">
+
+                    <button class="btn btn-sm btn-primary" type="submit"> 搜索</button>
+
+                  </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+  </form>
+
+   <table class="table table-hover table-responsive">
+
+            <thead class="navbar-inner">
+
+                <tr>
+
+                    <th style="width:25px;"><input type='checkbox' /></th>
+
+                    <th style="width:50px;">预约ID</th>
+
+                    <th style="width:100px;">日期</th>
+
+                    <th style="width:60px;">星期</th>
+
+                    <th style="width:80px;">开始时间</th>
+
+                    <th style="width:80px;">结束时间</th>
+
+                    <th style="width:60px;">人数</th>
+
+                    <th style="width:80px;">费用</th>
+
+                    <th style="width:120px;">地址</th>
+
+                    <th style="width:120px;">创建时间</th>
+          
+                    <th style="width:100px;">操作</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {loop $list $row}
+
+                <tr rel="pop" data-title="ID: {$row['id']} ">
+
+                    <td style="position: relative; ">
+
+                        <input type='checkbox'   value="{$row['id']}"/>
+
+                    </td>
+
+                    <td>{$row['id']}</td>
+
+                    <td>{$row['date']}</td>
+
+                    <td>{$row['week']}</td>
+
+                    <td>{$row['start_time']}</td>
+
+                    <td>{$row['end_time']}</td>
+
+                    <td><span style="color:blue;">{$row['consult_nums']}</span>/{$row['people_nums']}</td>
+
+                    <td>￥{$row['price']}</td>
+
+                    <td>{$row['address']}</td>
+
+                    <td>{$row['createtime']}</td>
+
+                    <td  style="overflow:visible;">
+
+                        <div class="btn-group btn-group-sm" >
+
+                            <ul class="dropdown-menu-left" role="menu" style='z-index: 9999'>
+
+                                {ifp 'consult.detail'}
+
+                                    <li><a href="{php echo webUrl('consult/detail',array('id' => $row['id']));}" title="查看详情"><i class='fa fa-edit'></i> 查看详情</a></li>
+
+                                {/if}
+
+                            </ul>
+
+                        </div>
+
+                    </td>
+
+                </tr>
+
+                {/loop}
+
+            </tbody>
+
+        </table>
+
+        {$pager}
+
+    <script language="javascript">
+
+      {if $opencommission}
+
+          require(['bootstrap', 'jquery', 'jquery.ui'], function (bs, $, $) {
+
+                    $("[rel=pop]").popover({
+
+                        trigger:'manual',
+
+                        placement : 'left', 
+
+                        title : $(this).data('title'),
+
+                        html: 'true', 
+
+                        content : $(this).data('content'),
+
+                        animation: false
+
+                    }).on("mouseenter", function () {
+
+                        var _this = this;
+
+                        $(this).popover("show"); 
+
+                        $(this).siblings(".popover").on("mouseleave", function () {
+
+                            $(_this).popover('hide');
+
+                        });
+
+                    }).on("mouseleave", function () {
+
+                        var _this = this;
+
+                        setTimeout(function () {
+
+                            if (!$(".popover:hover").length) {
+
+                                $(_this).popover("hide")
+
+                            }
+
+                        }, 100);
+
+                    });
+
+              });
+
+          {/if}   
+
+        </script>
+
+
+
+
+{template '_footer'}
+
+<!--yifuyuanma-->

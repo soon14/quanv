@@ -1,0 +1,278 @@
+2018-06-10 17:20:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1JYSZG6_t6asHQBUvIx5TYw]]></FromUserName>
+<CreateTime>1528622458</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-10 17:20:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1JYSZG6_t6asHQBUvIx5TYw',
+    'createtime' => '1528622458',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1JYSZG6_t6asHQBUvIx5TYw',
+    'to' => 'gh_8a317808696e',
+    'time' => '1528622458',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-10 17:20:59 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1JYSZG6_t6asHQBUvIx5TYw ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-10 19:44:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew5Qa8N-tbqx8DmssDCJusb4]]></FromUserName>
+<CreateTime>1528631088</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[user_view_card]]></Event>
+<CardId><![CDATA[p3hgewwmNS6lAo0HM97FfGnv638c]]></CardId>
+<UserCardCode><![CDATA[227631521940]]></UserCardCode>
+<OuterStr><![CDATA[]]></OuterStr>
+</xml>
+
+2018-06-10 19:44:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew5Qa8N-tbqx8DmssDCJusb4',
+    'createtime' => '1528631088',
+    'msgtype' => 'event',
+    'event' => 'user_view_card',
+    'cardid' => 'p3hgewwmNS6lAo0HM97FfGnv638c',
+    'usercardcode' => '227631521940',
+    'outerstr' => '',
+    'from' => 'o3hgew5Qa8N-tbqx8DmssDCJusb4',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1528631088',
+    'type' => 'event',
+  ),
+)
+
+2018-06-10 19:44:49 response :
+------------
+
+2018-06-10 20:24:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1GOZ5lq-yI1oHgzSafqoxTQ]]></FromUserName>
+<CreateTime>1528633461</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-06-10 20:24:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1GOZ5lq-yI1oHgzSafqoxTQ',
+    'createtime' => '1528633461',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1GOZ5lq-yI1oHgzSafqoxTQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1528633461',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-06-10 20:24:22 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1GOZ5lq-yI1oHgzSafqoxTQ ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-06-10 21:51:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PM8EYP_tcBVB6EzfF02rPQ]]></FromUserName>
+<CreateTime>1528638661</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>319545400677761025</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-10 21:51:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1PM8EYP_tcBVB6EzfF02rPQ',
+    'createtime' => '1528638661',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '319545400677761025',
+    'status' => 'success',
+    'from' => 'o4s6w1PM8EYP_tcBVB6EzfF02rPQ',
+    'to' => 'gh_8a317808696e',
+    'time' => '1528638661',
+    'type' => 'event',
+  ),
+)
+
+2018-06-10 21:51:01 response :
+------------
+
+2018-06-10 22:00:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AAQMfFubqSRaPdOBCr1j0E]]></FromUserName>
+<CreateTime>1528639215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>319554694919897089</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-10 22:00:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AAQMfFubqSRaPdOBCr1j0E',
+    'createtime' => '1528639215',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '319554694919897089',
+    'status' => 'success',
+    'from' => 'o4s6w1AAQMfFubqSRaPdOBCr1j0E',
+    'to' => 'gh_8a317808696e',
+    'time' => '1528639215',
+    'type' => 'event',
+  ),
+)
+
+2018-06-10 22:00:15 response :
+------------
+
+2018-06-10 22:04:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1AAQMfFubqSRaPdOBCr1j0E]]></FromUserName>
+<CreateTime>1528639492</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>319559346554028034</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-06-10 22:04:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1AAQMfFubqSRaPdOBCr1j0E',
+    'createtime' => '1528639492',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '319559346554028034',
+    'status' => 'success',
+    'from' => 'o4s6w1AAQMfFubqSRaPdOBCr1j0E',
+    'to' => 'gh_8a317808696e',
+    'time' => '1528639492',
+    'type' => 'event',
+  ),
+)
+
+2018-06-10 22:04:52 response :
+------------
+

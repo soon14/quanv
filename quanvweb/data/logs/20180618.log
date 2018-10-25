@@ -1,0 +1,49 @@
+2018-06-18 19:45:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1OowQeKhJcQFCvZPGNean9c]]></FromUserName>
+<CreateTime>1529322354</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[请问杜老师，BI-RADS分级怎么没有Ⅲ级，非常感谢，您好久回国呢？]]></Content>
+<MsgId>6568389496024037401</MsgId>
+</xml>
+
+2018-06-18 19:45:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1OowQeKhJcQFCvZPGNean9c',
+    'createtime' => '1529322354',
+    'msgtype' => 'text',
+    'content' => '请问杜老师，BI-RADS分级怎么没有Ⅲ级，非常感谢，您好久回国呢？',
+    'msgid' => '6568389496024037401',
+    'from' => 'o4s6w1OowQeKhJcQFCvZPGNean9c',
+    'to' => 'gh_8a317808696e',
+    'time' => '1529322354',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-06-18 19:45:54 response :
+------------
+
+2018-06-18 22:21:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1PNYtO2YNXjaqHj8fyGMeDc]]></FromUserName>
+<CreateTime>1529331685</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

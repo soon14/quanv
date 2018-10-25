@@ -1,0 +1,99 @@
+2018-04-18 14:11:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew3Udk4nDd4ttLiaHExiURHQ]]></FromUserName>
+<CreateTime>1524031895</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.066086</Latitude>
+<Longitude>113.385956</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-04-18 14:11:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'createtime' => '1524031895',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.066086',
+    'longitude' => '113.385956',
+    'precision' => '65.000000',
+    'from' => 'o3hgew3Udk4nDd4ttLiaHExiURHQ',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1524031895',
+    'type' => 'trace',
+    'location_x' => '23.066086',
+    'location_y' => '113.385956',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-18 14:11:36 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-04-18 18:01:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew1BqHAPY7NPk_2MKa8WKxLs]]></FromUserName>
+<CreateTime>1524045659</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-04-18 20:00:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3d9ec5667ec1]]></ToUserName>
+<FromUserName><![CDATA[o3hgew_EhN75bPG_VdEPFkbwb_6U]]></FromUserName>
+<CreateTime>1524052806</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.926268</Latitude>
+<Longitude>113.654640</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-04-18 20:00:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_3d9ec5667ec1',
+    'fromusername' => 'o3hgew_EhN75bPG_VdEPFkbwb_6U',
+    'createtime' => '1524052806',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.926268',
+    'longitude' => '113.654640',
+    'precision' => '30.000000',
+    'from' => 'o3hgew_EhN75bPG_VdEPFkbwb_6U',
+    'to' => 'gh_3d9ec5667ec1',
+    'time' => '1524052806',
+    'type' => 'trace',
+    'location_x' => '22.926268',
+    'location_y' => '113.654640',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-04-18 20:00:08 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+

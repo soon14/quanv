@@ -1,0 +1,166 @@
+2018-07-12 11:46:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1DMTDqpLiTxIIz5SU5H-Lwg]]></FromUserName>
+<CreateTime>1531367197</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-12 11:46:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1DMTDqpLiTxIIz5SU5H-Lwg',
+    'createtime' => '1531367197',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1DMTDqpLiTxIIz5SU5H-Lwg',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531367197',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-12 11:46:38 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1DMTDqpLiTxIIz5SU5H-Lwg ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-12 20:38:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1P1FhQCIDAgTDy7KVIn2szs]]></FromUserName>
+<CreateTime>1531399096</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-12 20:38:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1P1FhQCIDAgTDy7KVIn2szs',
+    'createtime' => '1531399096',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o4s6w1P1FhQCIDAgTDy7KVIn2szs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531399096',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '咨询',
+  ),
+  'module' => 'reply',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '15',
+    'uniacid' => '3',
+    'module' => 'reply',
+    'content' => '咨询',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2018-07-12 20:38:17 response :
+------------
+Array:
+FromUserName : gh_8a317808696e ;
+ToUserName : o4s6w1P1FhQCIDAgTDy7KVIn2szs ;
+MsgType : text ;
+Content : 欢迎关注全V健康！/可爱/可爱
+点击下方“开始咨询”进入首页就可以找医生咨询啦！ ;
+
+2018-07-12 21:20:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_8a317808696e]]></ToUserName>
+<FromUserName><![CDATA[o4s6w1P1FhQCIDAgTDy7KVIn2szs]]></FromUserName>
+<CreateTime>1531401639</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[微创治疗甲状腺结节是怎样的]]></Content>
+<MsgId>6577319957100962558</MsgId>
+</xml>
+
+2018-07-12 21:20:39 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_8a317808696e',
+    'fromusername' => 'o4s6w1P1FhQCIDAgTDy7KVIn2szs',
+    'createtime' => '1531401639',
+    'msgtype' => 'text',
+    'content' => '微创治疗甲状腺结节是怎样的',
+    'msgid' => '6577319957100962558',
+    'from' => 'o4s6w1P1FhQCIDAgTDy7KVIn2szs',
+    'to' => 'gh_8a317808696e',
+    'time' => '1531401639',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-12 21:20:39 response :
+------------
+
